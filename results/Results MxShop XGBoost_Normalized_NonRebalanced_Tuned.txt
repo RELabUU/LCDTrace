@@ -1,0 +1,3855 @@
+[22:36:54] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+Elapsed time to compute best fit: 1714.155 seconds
+Cross-validation score: 0.8329283861320473
+Test score: 0.7971014492753623
+Best Hyperparameters: {'classifier__min_child_weight': 9, 'classifier__max_depth': 6, 'classifier__learning_rate': 0.15, 'classifier__gamma': 0.9, 'classifier__colsample_bytree': 0.8}
+0.017387914
+0.023187198
+0.048509862
+0.0
+0.017462779
+0.025219457
+0.0
+0.006787189
+0.019125199
+0.0
+0.04485659
+0.014123082
+0.0
+0.0
+0.022169633
+0.0
+0.01980644
+0.0
+0.0
+0.004699794
+0.0
+0.0304516
+0.008459342
+0.0
+0.0
+0.0
+0.0
+0.0
+0.01864229
+0.009701973
+0.0
+0.0
+0.007284407
+0.0
+0.008559288
+0.0
+0.0
+0.0
+0.0054326775
+0.0076253614
+0.021018364
+0.0045094118
+0.009215939
+0.065427035
+0.0
+0.0
+0.010863824
+0.0
+0.0
+0.0
+0.0
+0.0
+0.014121011
+0.0
+0.0
+0.0
+0.0
+0.0
+0.01181782
+0.010341749
+0.016029196
+0.055735968
+0.006451223
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.019944549
+0.012841474
+0.0
+0.004018831
+0.0
+0.0
+0.0
+0.0
+0.007172115
+0.013467336
+0.0
+0.005515766
+0.038742557
+0.013019401
+0.01833485
+0.018675232
+0.008101592
+0.020314047
+0.0
+0.004631846
+0.0
+0.0
+0.0
+0.0050465628
+0.0237013
+0.0
+0.0
+0.0
+0.0
+0.010536199
+0.011143846
+0.010272614
+0.0
+0.010530138
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.010900302
+0.015857004
+0.006369037
+0.0
+0.023092736
+0.0
+0.0
+0.0042547644
+0.0
+0.011297329
+0.0
+0.0
+0.0090778805
+0.0
+0.0
+0.007543023
+0.0
+0.037003994
+0.015032601
+0.008075184
+0.010462251
+Legend
+Recall -  measures the fraction of relevant links that are retrieved
+Precision - measures the fraction of retrieved links that are relevant
+F-measure - measures the harmonic mean of recall and precision
+F2-measure - favors recall
+F0.5-measure - favors precision
+Average Precision - summarizes a precision-recall curve as the weighted mean of precisions achieved at each threshold
+
+   Accuracy  Precision    Recall        F1        F2      F0.5  \
+0  0.998811   0.846154  0.647059  0.733333  0.679012  0.797101   
+
+   Average Precision  
+0           0.548403  
+
+--------------------------------------------------------------------
+
+C:\Users\rande\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+
+[23:03:57] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+Elapsed time to compute best fit: 1618.755 seconds
+Cross-validation score: 0.812616059962336
+Test score: 0.7894736842105263
+Best Hyperparameters: {'classifier__min_child_weight': 8, 'classifier__max_depth': 12, 'classifier__learning_rate': 0.4, 'classifier__gamma': 0.3, 'classifier__colsample_bytree': 0.2}
+0.028700061
+0.019924155
+0.04620611
+0.0
+0.029158324
+0.008901393
+0.0012772494
+0.0
+0.03670984
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.010975686
+0.018276574
+0.018458815
+0.0
+0.0031972472
+0.0
+0.0541827
+0.004209339
+0.0
+0.0
+0.0
+0.0
+0.0
+0.020526579
+0.0063623367
+0.0
+0.0026566624
+0.013646889
+0.0
+0.0026239045
+0.0
+0.0
+0.0018711269
+0.03195529
+0.0033116774
+0.0059462884
+0.0033635774
+0.0041981186
+0.0048804046
+0.0015837403
+0.003359153
+0.0066028363
+0.0
+0.0
+0.0
+0.009055019
+0.0
+0.010145662
+0.0
+0.0
+0.0
+0.0
+0.0
+0.005092812
+0.046348568
+0.045813356
+0.018927058
+0.0018641435
+0.0
+0.003648073
+0.014173344
+0.007979898
+0.0
+0.0016350262
+0.0065752813
+0.008838737
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.010065992
+0.002780353
+0.0022678396
+0.006506991
+0.017356051
+0.026029374
+0.031071702
+0.034682274
+0.017142503
+0.012642718
+0.010043691
+0.003799276
+0.0
+0.0037077623
+0.0
+0.0038829593
+0.009132942
+0.0
+0.0
+0.0035188703
+0.0
+0.009571606
+0.028183345
+0.012591526
+0.0
+0.00440102
+0.0016085126
+0.005301103
+0.0029987257
+0.0055297147
+0.0
+0.0
+0.0
+0.006329944
+0.0072179493
+0.0
+0.02927317
+0.023458067
+0.0014967908
+0.0
+0.0
+0.0011495692
+0.008837373
+0.0
+0.020814076
+0.0028347736
+0.0
+0.0
+0.003499679
+0.007766004
+0.0074519557
+0.019389283
+0.005353268
+0.017148176
+Legend
+Recall -  measures the fraction of relevant links that are retrieved
+Precision - measures the fraction of retrieved links that are relevant
+F-measure - measures the harmonic mean of recall and precision
+F2-measure - favors recall
+F0.5-measure - favors precision
+Average Precision - summarizes a precision-recall curve as the weighted mean of precisions achieved at each threshold
+
+   Accuracy  Precision    Recall        F1        F2      F0.5  \
+0  0.998662        0.9  0.529412  0.666667  0.576923  0.789474   
+
+   Average Precision  
+0            0.47766  
+
+--------------------------------------------------------------------
+
+C:\Users\rande\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+
+[23:32:16] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+Elapsed time to compute best fit: 1700.347 seconds
+Cross-validation score: 0.8451379149135111
+Test score: 0.8771929824561404
+Best Hyperparameters: {'classifier__min_child_weight': 10, 'classifier__max_depth': 2, 'classifier__learning_rate': 0.3, 'classifier__gamma': 0.3, 'classifier__colsample_bytree': 0.7}
+0.04305141
+0.03253571
+0.06776076
+0.0
+0.063236825
+0.022156537
+0.0
+0.0
+0.0
+0.0
+0.04552217
+0.0
+0.0
+0.0
+0.036197696
+0.0
+0.030235296
+0.0
+0.0
+0.0
+0.0
+0.04291311
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.008531175
+0.0
+0.0
+0.002607935
+0.0
+0.0
+0.0
+0.0
+0.005941722
+0.0
+0.006878799
+0.003185988
+0.0028261805
+0.0
+0.0
+0.0029886693
+0.007863231
+0.0070824022
+0.0
+0.0
+0.0
+0.008364263
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0065483255
+0.0
+0.03656021
+0.109695785
+0.0
+0.0
+0.002562376
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.008520945
+0.031868335
+0.0
+0.0
+0.042554844
+0.0
+0.0054448675
+0.049271185
+0.012337556
+0.008657257
+0.0
+0.0
+0.0
+0.006645496
+0.0
+0.0
+0.015606883
+0.008684018
+0.007968889
+0.0
+0.0
+0.01296635
+0.023645097
+0.01727003
+0.0
+0.0
+0.0
+0.015481869
+0.0
+0.0
+0.0
+0.0
+0.0
+0.011136778
+0.011800578
+0.002364746
+0.0054564653
+0.044772662
+0.005354551
+0.0
+0.0
+0.0
+0.0072659026
+0.007508068
+0.011831418
+0.0
+0.0
+0.0
+0.0
+0.01643375
+0.0
+0.008297553
+0.0
+0.005607348
+Legend
+Recall -  measures the fraction of relevant links that are retrieved
+Precision - measures the fraction of retrieved links that are relevant
+F-measure - measures the harmonic mean of recall and precision
+F2-measure - favors recall
+F0.5-measure - favors precision
+Average Precision - summarizes a precision-recall curve as the weighted mean of precisions achieved at each threshold
+
+   Accuracy  Precision    Recall        F1        F2      F0.5  \
+0  0.998959        1.0  0.588235  0.740741  0.641026  0.877193   
+
+   Average Precision  
+0           0.589276  
+
+--------------------------------------------------------------------
+
+C:\Users\rande\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+
+[00:00:29] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+Elapsed time to compute best fit: 1693.036 seconds
+Cross-validation score: 0.7819290192841533
+Test score: 0.7692307692307693
+Best Hyperparameters: {'classifier__min_child_weight': 10, 'classifier__max_depth': 18, 'classifier__learning_rate': 0.6, 'classifier__gamma': 0.9, 'classifier__colsample_bytree': 1.0}
+0.018321674
+0.011427668
+0.07320425
+0.0
+0.06969615
+0.05986972
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0048500607
+0.0
+0.0
+0.030021489
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.033028778
+0.009853025
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.018616185
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.014439625
+0.005660434
+0.0057602297
+0.0
+0.0
+0.0
+0.0
+0.013808179
+0.0
+0.0
+0.0
+0.010828089
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.008626336
+0.09277732
+0.09170241
+0.08386342
+0.0
+0.0
+0.005918571
+0.0
+0.0
+0.0
+0.0
+0.0
+0.012734606
+0.0
+0.0052181035
+0.0
+0.0
+0.0
+0.0
+0.016716542
+0.024393486
+0.0
+0.0
+0.04361945
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.012472327
+0.0
+0.0
+0.0
+0.0
+0.031249199
+0.0
+0.0
+0.0
+0.0
+0.024221912
+0.01576017
+0.013514825
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.022024807
+0.0042744502
+0.0
+0.0
+0.027134743
+0.0
+0.0
+0.0
+0.0
+0.008991957
+0.0
+0.004837511
+0.0
+0.0
+0.0
+0.012377939
+0.0
+0.032849938
+0.012201476
+0.0
+0.013132885
+Legend
+Recall -  measures the fraction of relevant links that are retrieved
+Precision - measures the fraction of retrieved links that are relevant
+F-measure - measures the harmonic mean of recall and precision
+F2-measure - favors recall
+F0.5-measure - favors precision
+Average Precision - summarizes a precision-recall curve as the weighted mean of precisions achieved at each threshold
+
+   Accuracy  Precision    Recall        F1     F2      F0.5  Average Precision
+0  0.998662   0.833333  0.588235  0.689655  0.625  0.769231           0.491237
+
+--------------------------------------------------------------------
+
+C:\Users\rande\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+
+[00:28:02] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+Elapsed time to compute best fit: 1652.403 seconds
+Cross-validation score: 0.8420020559424117
+Test score: 0.8490566037735848
+Best Hyperparameters: {'classifier__min_child_weight': 10, 'classifier__max_depth': 8, 'classifier__learning_rate': 0.3, 'classifier__gamma': 0.6, 'classifier__colsample_bytree': 0.5}
+0.027378984
+0.019352203
+0.06106192
+0.0
+0.045794737
+0.011398567
+0.0
+0.014269077
+0.005214672
+0.0
+0.0
+0.0
+0.0
+0.0
+0.04700637
+0.0
+0.011909109
+0.0
+0.0
+0.0
+0.0
+0.030685144
+0.0066121356
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0032676975
+0.013463228
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.016592238
+0.022416908
+0.0027764994
+0.0
+0.0
+0.0044440073
+0.0
+0.010496521
+0.0
+0.0
+0.0
+0.004024052
+0.010383188
+0.010850504
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0054929308
+0.02617436
+0.06298143
+0.049921636
+0.0063512907
+0.0
+0.0072342544
+0.0
+0.0
+0.0
+0.0
+0.0
+0.009620841
+0.0
+0.012628866
+0.0
+0.0
+0.0
+0.0
+0.013786656
+0.025427613
+0.0
+0.012479348
+0.058769334
+0.029814055
+0.015276485
+0.014831786
+0.012376381
+0.0
+0.0
+0.0
+0.0
+0.0069106715
+0.0
+0.009236533
+0.009536731
+0.0
+0.0
+0.0
+0.0
+0.008162915
+0.014033345
+0.01972656
+0.0
+0.0
+0.0
+0.003058118
+0.0065222923
+0.0
+0.0
+0.0
+0.0
+0.0054750224
+0.00520475
+0.009012641
+0.020965556
+0.04930875
+0.006130506
+0.0
+0.0
+0.0
+0.0074794707
+0.0
+0.0
+0.0034316878
+0.0
+0.0
+0.0037458963
+0.028624466
+0.015995713
+0.009520381
+0.015352944
+0.0
+Legend
+Recall -  measures the fraction of relevant links that are retrieved
+Precision - measures the fraction of retrieved links that are relevant
+F-measure - measures the harmonic mean of recall and precision
+F2-measure - favors recall
+F0.5-measure - favors precision
+Average Precision - summarizes a precision-recall curve as the weighted mean of precisions achieved at each threshold
+
+   Accuracy  Precision    Recall        F1        F2      F0.5  \
+0  0.998811        1.0  0.529412  0.692308  0.584416  0.849057   
+
+   Average Precision  
+0           0.530601  
+
+--------------------------------------------------------------------
+
+C:\Users\rande\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+
+[01:00:23] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+Elapsed time to compute best fit: 1949.293 seconds
+Cross-validation score: 0.8544511078651478
+Test score: 0.8196721311475408
+Best Hyperparameters: {'classifier__min_child_weight': 1, 'classifier__max_depth': 18, 'classifier__learning_rate': 0.25, 'classifier__gamma': 0.8, 'classifier__colsample_bytree': 0.9}
+0.011964898
+0.020147132
+0.020765206
+0.0036705537
+0.010681295
+0.0051673036
+0.0048464285
+0.0
+0.0
+0.0044154427
+0.016146477
+0.005720252
+0.006463113
+0.0
+0.018661149
+0.0
+0.0046562445
+0.004954382
+0.0
+0.01486986
+0.007704909
+0.01792364
+0.00954417
+0.0
+0.0
+0.0
+0.0
+0.010584864
+0.03416566
+0.0052332366
+0.011111981
+0.0064512673
+0.007440527
+0.0037929206
+0.008316923
+0.0
+0.0
+0.0
+0.006727326
+0.03467003
+0.023300543
+0.010754469
+0.0
+0.008083064
+0.0063632396
+0.017701525
+0.0025035639
+0.0
+0.0
+0.0
+0.008681623
+0.004721947
+0.0060489113
+0.004933104
+0.0
+0.0
+0.0060716136
+0.0
+0.009018492
+0.022449644
+0.04626191
+0.013651265
+0.010179122
+0.0
+0.0042839134
+0.008075596
+0.0
+0.0
+0.03178907
+0.009309379
+0.02716709
+0.015343392
+0.013353483
+0.00643292
+0.008969779
+0.0
+0.006857845
+0.0
+0.012440548
+0.0
+0.011277024
+0.015049882
+0.01719785
+0.008951767
+0.01247808
+0.026428143
+0.0071665067
+0.0
+0.015788175
+0.0
+0.009373341
+0.0
+0.011419421
+0.007022054
+0.008042982
+0.0
+0.005624867
+0.0
+0.0069940723
+0.012315868
+0.004571491
+0.0
+0.007887476
+0.0
+0.0043120803
+0.007747335
+0.0
+0.0
+0.007854835
+0.0
+0.0037437447
+0.0068541076
+0.0053594247
+0.008970665
+0.008567386
+0.0
+0.0
+0.0133589655
+0.0
+0.007939106
+0.0
+0.008887889
+0.0
+0.0
+0.007142708
+0.00866603
+0.0051370393
+0.021857366
+0.0052532125
+0.012950628
+0.0062642517
+Legend
+Recall -  measures the fraction of relevant links that are retrieved
+Precision - measures the fraction of retrieved links that are relevant
+F-measure - measures the harmonic mean of recall and precision
+F2-measure - favors recall
+F0.5-measure - favors precision
+Average Precision - summarizes a precision-recall curve as the weighted mean of precisions achieved at each threshold
+
+   Accuracy  Precision    Recall        F1        F2      F0.5  \
+0  0.998811   0.909091  0.588235  0.714286  0.632911  0.819672   
+
+   Average Precision  
+0             0.5358  
+
+--------------------------------------------------------------------
+
+C:\Users\rande\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+
+[01:27:12] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+Elapsed time to compute best fit: 1606.105 seconds
+Cross-validation score: 0.8308607345072982
+Test score: 0.6923076923076923
+Best Hyperparameters: {'classifier__min_child_weight': 1, 'classifier__max_depth': 18, 'classifier__learning_rate': 0.3, 'classifier__gamma': 0.7, 'classifier__colsample_bytree': 0.9}
+0.013852312
+0.021991381
+0.02529348
+0.0064459364
+0.009085839
+0.0071401885
+0.0077248183
+0.0057944916
+0.0
+0.0
+0.016114192
+0.0077724247
+0.0
+0.0
+0.013585351
+0.0
+0.026177995
+0.0053041195
+0.0085494565
+0.0
+0.016108792
+0.020037362
+0.006253135
+0.0
+0.0
+0.0
+0.0
+0.007221951
+0.0052839317
+0.0
+0.011152011
+0.010125635
+0.02330602
+0.005960173
+0.0054214844
+0.0
+0.008181714
+0.0029321357
+0.010427045
+0.0
+0.01746047
+0.0
+0.0
+0.012596714
+0.0
+0.02270656
+0.004441378
+0.0
+0.0
+0.0
+0.00828954
+0.005351231
+0.0051075593
+0.0
+0.0
+0.0
+0.0
+0.0
+0.017233064
+0.020530876
+0.054904282
+0.008657103
+0.015482614
+0.0
+0.0
+0.009175416
+0.008610375
+0.0
+0.015458522
+0.009014337
+0.010401119
+0.0
+0.010641621
+0.030602463
+0.0
+0.0
+0.009573849
+0.011190385
+0.009806388
+0.0
+0.006791523
+0.016134104
+0.014918031
+0.0073657664
+0.0
+0.009505983
+0.0
+0.04969552
+0.008477967
+0.0
+0.009788399
+0.0
+0.00898209
+0.012436549
+0.011045522
+0.010531715
+0.010607522
+0.0
+0.016599528
+0.008092111
+0.010092014
+0.0
+0.0049235206
+0.0
+0.005641024
+0.004860111
+0.0
+0.0
+0.0
+0.0
+0.0065029603
+0.013853919
+0.0031270972
+0.013096532
+0.008995669
+0.0
+0.0035523747
+0.00608298
+0.0
+0.0023385077
+0.006574518
+0.008468463
+0.006176792
+0.0
+0.0
+0.01638989
+0.009924288
+0.025718689
+0.0
+0.018229095
+0.0
+Legend
+Recall -  measures the fraction of relevant links that are retrieved
+Precision - measures the fraction of retrieved links that are relevant
+F-measure - measures the harmonic mean of recall and precision
+F2-measure - favors recall
+F0.5-measure - favors precision
+Average Precision - summarizes a precision-recall curve as the weighted mean of precisions achieved at each threshold
+
+   Accuracy  Precision    Recall       F1      F2      F0.5  Average Precision
+0  0.998365       0.75  0.529412  0.62069  0.5625  0.692308           0.398248
+
+--------------------------------------------------------------------
+
+C:\Users\rande\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\sklearn\metrics\_plot\precision_recall_curve.py:125: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig, ax = plt.subplots()
+C:\Users\rande\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+
+[09:22:34] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+Elapsed time to compute best fit: 28517.973 seconds
+Cross-validation score: 0.8448152447930998
+Test score: 0.821917808219178
+Best Hyperparameters: {'classifier__min_child_weight': 7, 'classifier__max_depth': 12, 'classifier__learning_rate': 0.15, 'classifier__gamma': 0.8, 'classifier__colsample_bytree': 0.7}
+0.020442277
+0.022578474
+0.03483195
+0.0
+0.017079279
+0.011239521
+0.014845448
+0.010562364
+0.0127258
+0.0
+0.024041107
+0.024763223
+0.0
+0.0
+0.0
+0.0
+0.02457653
+0.0
+0.0
+0.019754268
+0.0050282003
+0.023262158
+0.004965204
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0048022573
+0.0
+0.005169628
+0.0
+0.0
+0.010817798
+0.0
+0.0
+0.0074339695
+0.0033820278
+0.00519671
+0.006770644
+0.01625578
+0.0
+0.008761312
+0.0064858
+0.044689108
+0.009238911
+0.0
+0.0
+0.0
+0.0075848326
+0.010361039
+0.009612399
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0072314353
+0.038852468
+0.017738255
+0.033214327
+0.0
+0.0
+0.008185733
+0.0074719843
+0.0037463505
+0.0
+0.011314591
+0.016226007
+0.0050989655
+0.0
+0.0060141883
+0.0
+0.0
+0.0
+0.0
+0.007569997
+0.011278701
+0.0
+0.009004197
+0.030641543
+0.008323845
+0.0032352584
+0.036675725
+0.0065864087
+0.023127504
+0.0
+0.0072296946
+0.0
+0.0
+0.0
+0.041022666
+0.015493157
+0.0
+0.0
+0.005007903
+0.0
+0.0048424015
+0.010570769
+0.0093434965
+0.0
+0.006025398
+0.0
+0.003697303
+0.0
+0.0
+0.0
+0.005071666
+0.0
+0.0048106546
+0.0029466497
+0.003739042
+0.0072360006
+0.022101328
+0.01869981
+0.0
+0.032690022
+0.0
+0.006021539
+0.0
+0.0
+0.011890187
+0.0
+0.0
+0.009893747
+0.0
+0.035972774
+0.007985251
+0.008913054
+0.0
+Legend
+Recall -  measures the fraction of relevant links that are retrieved
+Precision - measures the fraction of retrieved links that are relevant
+F-measure - measures the harmonic mean of recall and precision
+F2-measure - favors recall
+F0.5-measure - favors precision
+Average Precision - summarizes a precision-recall curve as the weighted mean of precisions achieved at each threshold
+
+   Accuracy  Precision    Recall        F1        F2      F0.5  \
+0  0.998959   0.857143  0.705882  0.774194  0.731707  0.821918   
+
+   Average Precision  
+0           0.605785  
+
+--------------------------------------------------------------------
+
+C:\Users\rande\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+
+[09:48:26] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+Elapsed time to compute best fit: 1549.914 seconds
+Cross-validation score: 0.8447236499683536
+Test score: 0.7692307692307693
+Best Hyperparameters: {'classifier__min_child_weight': 6, 'classifier__max_depth': 8, 'classifier__learning_rate': 0.4, 'classifier__gamma': 0.1, 'classifier__colsample_bytree': 0.4}
+0.044589203
+0.011195919
+0.053482465
+0.0
+0.034458198
+0.00941479
+0.0
+0.0
+0.017626991
+0.0
+0.018137021
+0.0121693155
+0.0
+0.0
+0.0
+0.0
+0.038313646
+0.0
+0.0
+0.0
+0.0039799935
+0.022985725
+0.007059128
+0.0
+0.0055490932
+0.0
+0.0
+0.0
+0.020949632
+0.0
+0.0
+0.004633479
+0.00546894
+0.024794381
+0.0029285816
+0.014234319
+0.013712658
+0.0044190916
+0.0051700817
+0.007245103
+0.0032266178
+0.014191779
+0.0
+0.005073663
+0.008755205
+0.0015352486
+0.0
+0.0
+0.0
+0.0
+0.0076757674
+0.0
+0.0066304514
+0.0
+0.0
+0.0
+0.0
+0.004818293
+0.0067672017
+0.02785031
+0.0078117517
+0.088996306
+0.002984378
+0.0
+0.0033102261
+0.015978953
+0.0
+0.0028465907
+0.02584712
+0.009049457
+0.004990168
+0.0
+0.0103803035
+0.0
+0.0
+0.0
+0.0
+0.0031534182
+0.0036828637
+0.0
+0.007838584
+0.03479093
+0.009363024
+0.0
+0.005666609
+0.03231376
+0.01158099
+0.0
+0.0032264497
+0.0
+0.0040852157
+0.0
+0.005749244
+0.01837414
+0.0
+0.0040696617
+0.0029062703
+0.0
+0.0142473765
+0.005831488
+0.0024786498
+0.0010486083
+0.0024777306
+0.0
+0.0031198808
+0.011844543
+0.0
+0.0
+0.0
+0.0
+0.008998822
+0.006709864
+0.0036119574
+0.012922218
+0.01767277
+0.004973235
+0.0
+0.0053203576
+0.0
+0.008006343
+0.009444002
+0.0063630445
+0.0025991169
+0.0
+0.0
+0.022959407
+0.00495936
+0.04290016
+0.0050736885
+0.0083986735
+0.0
+Legend
+Recall -  measures the fraction of relevant links that are retrieved
+Precision - measures the fraction of retrieved links that are relevant
+F-measure - measures the harmonic mean of recall and precision
+F2-measure - favors recall
+F0.5-measure - favors precision
+Average Precision - summarizes a precision-recall curve as the weighted mean of precisions achieved at each threshold
+
+   Accuracy  Precision    Recall        F1     F2      F0.5  Average Precision
+0  0.998662   0.833333  0.588235  0.689655  0.625  0.769231           0.491237
+
+--------------------------------------------------------------------
+
+C:\Users\rande\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+
+[10:15:50] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+Elapsed time to compute best fit: 1641.138 seconds
+Cross-validation score: 0.8208386987415555
+Test score: 0.7894736842105263
+Best Hyperparameters: {'classifier__min_child_weight': 9, 'classifier__max_depth': 20, 'classifier__learning_rate': 0.3, 'classifier__gamma': 0.2, 'classifier__colsample_bytree': 0.1}
+0.024907924
+0.01548107
+0.066989526
+0.0
+0.03585393
+0.0073293694
+0.0073983036
+0.0
+0.022302132
+0.0
+0.0
+0.013030985
+0.0
+0.0
+0.0
+0.0031123986
+0.021928623
+0.0
+0.009412632
+0.020047843
+0.02160982
+0.02938292
+0.0022378308
+0.011548985
+0.005389054
+0.0
+0.0
+0.028834915
+0.0
+0.007918232
+0.0012933855
+0.0
+0.0
+0.0
+0.0
+0.0037051335
+0.0
+0.0023379906
+0.028177422
+0.014005343
+0.007518822
+0.014619165
+0.005369776
+0.0
+0.0
+6.6960645e-05
+0.008069546
+0.0
+0.0
+0.0
+0.013563861
+0.005824228
+0.0057289125
+0.0
+0.0
+0.011013585
+0.011919645
+0.0064441278
+0.003287483
+0.008152719
+0.069165215
+0.007151484
+0.0
+0.003029674
+0.010553998
+0.0
+0.0
+0.003083539
+0.0
+0.004767536
+0.0071083936
+0.0
+0.0070401845
+0.0
+0.0
+0.0
+0.0
+0.0029661064
+0.0015300902
+0.007850883
+0.0030683985
+0.021272954
+0.020415012
+0.0072813467
+0.017344194
+0.008908795
+0.009943998
+0.0025007895
+0.0
+0.0
+0.0
+0.0
+0.0017805436
+0.013179977
+0.010759128
+0.004176479
+0.0011330325
+0.0
+0.0060156137
+0.014302617
+0.0
+0.0
+0.0024965927
+0.0
+0.010641913
+0.0
+0.0016145068
+0.0
+0.0
+0.0
+0.00731403
+0.0033228318
+0.007296675
+0.022634668
+0.023142653
+0.005453046
+0.061886758
+0.010147498
+0.0033671104
+0.0035067315
+0.004063651
+0.006808162
+0.004198458
+0.0
+0.0
+0.009458968
+0.023112718
+0.004010855
+0.0
+0.006288156
+0.007089395
+Legend
+Recall -  measures the fraction of relevant links that are retrieved
+Precision - measures the fraction of retrieved links that are relevant
+F-measure - measures the harmonic mean of recall and precision
+F2-measure - favors recall
+F0.5-measure - favors precision
+Average Precision - summarizes a precision-recall curve as the weighted mean of precisions achieved at each threshold
+
+   Accuracy  Precision    Recall        F1        F2      F0.5  \
+0  0.998662        0.9  0.529412  0.666667  0.576923  0.789474   
+
+   Average Precision  
+0            0.47766  
+
+--------------------------------------------------------------------
+
+C:\Users\rande\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+
+[10:41:36] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+Elapsed time to compute best fit: 1545.692 seconds
+Cross-validation score: 0.8135269543330367
+Test score: 0.7017543859649122
+Best Hyperparameters: {'classifier__min_child_weight': 10, 'classifier__max_depth': 16, 'classifier__learning_rate': 0.6, 'classifier__gamma': 0.7, 'classifier__colsample_bytree': 0.2}
+0.09487895
+0.01968115
+0.049871992
+0.0
+0.040699225
+0.0
+0.0027758372
+0.0
+0.03567971
+0.0
+0.02418668
+0.0
+0.0
+0.0
+0.0
+0.020548448
+0.030836526
+0.0
+0.00036433878
+0.011061352
+0.036743067
+0.029931633
+0.003312334
+0.0
+0.0
+0.0
+0.0
+0.007988545
+0.0
+0.0
+0.0
+0.0028218797
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.04836955
+0.0026637553
+0.008313725
+0.004504802
+0.0
+0.017505242
+0.0040845345
+0.009053304
+0.00987915
+0.0
+0.0
+0.0
+0.0
+0.0
+0.014903172
+0.0
+0.0
+0.0
+0.0
+0.0
+0.010283484
+0.0018620677
+0.0
+0.032126494
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.009707447
+0.0
+0.005196343
+0.0
+0.0
+0.0
+0.0
+0.003685872
+0.004118163
+0.0
+0.01324552
+0.0073627126
+0.012539202
+0.019357113
+0.022082478
+0.008307163
+0.022613611
+0.0
+0.008756455
+0.0
+0.0
+0.0
+0.0027657368
+0.014077432
+0.006655674
+0.0040829726
+0.0034642126
+0.0
+0.005957079
+0.027406543
+0.00707529
+0.0
+0.0
+0.0
+0.0
+0.0041518705
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0040102857
+0.029403262
+0.04812874
+0.07093908
+0.0
+0.006874635
+0.0
+0.0
+0.00937626
+0.0053171776
+0.0037953302
+0.005691082
+0.0
+0.0
+0.0043437406
+0.0
+0.0
+0.017910892
+0.006669663
+0.0
+Legend
+Recall -  measures the fraction of relevant links that are retrieved
+Precision - measures the fraction of retrieved links that are relevant
+F-measure - measures the harmonic mean of recall and precision
+F2-measure - favors recall
+F0.5-measure - favors precision
+Average Precision - summarizes a precision-recall curve as the weighted mean of precisions achieved at each threshold
+
+   Accuracy  Precision    Recall        F1        F2      F0.5  \
+0  0.998365        0.8  0.470588  0.592593  0.512821  0.701754   
+
+   Average Precision  
+0           0.377809  
+
+--------------------------------------------------------------------
+
+C:\Users\rande\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+
+[11:11:42] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+Elapsed time to compute best fit: 1809.151 seconds
+Cross-validation score: 0.8438532438310988
+Test score: 0.7692307692307693
+Best Hyperparameters: {'classifier__min_child_weight': 10, 'classifier__max_depth': 4, 'classifier__learning_rate': 0.55, 'classifier__gamma': 0.3, 'classifier__colsample_bytree': 0.8}
+0.033821527
+0.025295148
+0.0694597
+0.0
+0.084383935
+0.01562561
+0.0028633005
+0.0
+0.0
+0.0
+0.0
+0.01948367
+0.0
+0.0
+0.014564526
+0.0
+0.03712645
+0.0
+0.0
+0.0
+0.0
+0.06501814
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.018669471
+0.0
+0.0
+0.0018674526
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.02207408
+0.0
+0.006982547
+0.0
+0.0
+0.01949146
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.012835409
+0.0030707899
+0.078447096
+0.06241074
+0.002182409
+0.0
+0.0035032562
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.017075323
+0.0
+0.0
+0.0
+0.0
+0.0030078047
+0.027261632
+0.0
+0.010854954
+0.06918505
+0.0
+0.01648372
+0.02365019
+0.013075612
+0.0036069746
+0.0
+0.00829464
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0021543487
+0.018982489
+0.0
+0.00515592
+0.020214045
+0.003677498
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.010232975
+0.004809239
+0.0
+0.03235949
+0.023885787
+0.0
+0.0
+0.0
+0.0
+0.013015994
+0.0
+0.0
+0.0032278253
+0.0
+0.0
+0.031740226
+0.0
+0.019033518
+0.0128042335
+0.0
+0.0070338156
+Legend
+Recall -  measures the fraction of relevant links that are retrieved
+Precision - measures the fraction of retrieved links that are relevant
+F-measure - measures the harmonic mean of recall and precision
+F2-measure - favors recall
+F0.5-measure - favors precision
+Average Precision - summarizes a precision-recall curve as the weighted mean of precisions achieved at each threshold
+
+   Accuracy  Precision    Recall        F1     F2      F0.5  Average Precision
+0  0.998662   0.833333  0.588235  0.689655  0.625  0.769231           0.491237
+
+--------------------------------------------------------------------
+
+C:\Users\rande\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+
+[11:38:06] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+Elapsed time to compute best fit: 1583.404 seconds
+Cross-validation score: 0.8102977952907826
+Test score: 0.8235294117647058
+Best Hyperparameters: {'classifier__min_child_weight': 9, 'classifier__max_depth': 18, 'classifier__learning_rate': 0.55, 'classifier__gamma': 0.3, 'classifier__colsample_bytree': 0.9}
+0.026865477
+0.021853345
+0.07069253
+0.0
+0.035447247
+0.012481068
+0.0
+0.0
+0.0
+0.0
+0.06373691
+0.0021838585
+0.0
+0.0
+0.022155978
+0.0
+0.0019551395
+0.0
+0.0
+0.0
+0.0068509094
+0.027501931
+0.006762345
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0023063838
+0.0
+0.0
+0.0147850225
+0.0
+0.0
+0.0
+0.018149495
+0.0076151304
+0.0
+0.0030672983
+0.0
+0.0
+0.013740751
+0.0
+0.008193111
+0.0
+0.0
+0.0
+0.016151143
+0.0021428082
+0.001516998
+0.0
+0.0
+0.0
+0.0
+0.0
+0.006993657
+0.061332103
+0.048182942
+0.030825794
+0.0020835109
+0.0
+0.0032848527
+0.0
+0.0
+0.0
+0.0
+0.023094742
+0.0
+0.0
+0.009249885
+0.0
+0.0
+0.0
+0.0
+0.013391101
+0.020825865
+0.0
+0.010641926
+0.037778698
+0.039970536
+0.025665583
+0.0
+0.0089908
+0.018502036
+0.0
+0.0016864503
+0.0
+0.0
+0.0
+0.006088201
+0.025748555
+0.0
+0.0
+0.0043185395
+0.0
+0.003913006
+0.007958171
+0.002706239
+0.0
+0.0
+0.0
+0.0
+0.008043505
+0.0
+0.0
+0.0
+0.0
+0.019912537
+0.0053294506
+0.0
+0.0
+0.023177207
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.002762022
+0.0073639518
+0.0
+0.0
+0.0
+0.0
+0.09668188
+0.019947877
+0.008765425
+0.008628091
+Legend
+Recall -  measures the fraction of relevant links that are retrieved
+Precision - measures the fraction of retrieved links that are relevant
+F-measure - measures the harmonic mean of recall and precision
+F2-measure - favors recall
+F0.5-measure - favors precision
+Average Precision - summarizes a precision-recall curve as the weighted mean of precisions achieved at each threshold
+
+   Accuracy  Precision    Recall        F1        F2      F0.5  \
+0  0.999108   0.823529  0.823529  0.823529  0.823529  0.823529   
+
+   Average Precision  
+0           0.678647  
+
+--------------------------------------------------------------------
+
+C:\Users\rande\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+
+[12:05:06] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+Elapsed time to compute best fit: 1618.596 seconds
+Cross-validation score: 0.8199244605201643
+Test score: 0.7894736842105263
+Best Hyperparameters: {'classifier__min_child_weight': 9, 'classifier__max_depth': 2, 'classifier__learning_rate': 0.25, 'classifier__gamma': 0.8, 'classifier__colsample_bytree': 0.6}
+0.033392563
+0.012475201
+0.07779989
+0.0
+0.028814366
+0.054323703
+0.0
+0.0
+0.0
+0.0
+0.0
+0.01416785
+0.0
+0.0
+0.030374665
+0.0
+0.041917752
+0.0
+0.0
+0.0
+0.0
+0.030527635
+0.004510073
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.008874037
+0.008879763
+0.0057724556
+0.0055293515
+0.0
+0.0
+0.0
+0.0041156104
+0.0
+0.0
+0.0
+0.010293523
+0.0
+0.013846825
+0.0
+0.0
+0.0
+0.0100260535
+0.0
+0.0066504767
+0.0
+0.03628094
+0.0534999
+0.0
+0.0
+0.013008041
+0.0
+0.0
+0.0
+0.0
+0.007499977
+0.0046131304
+0.0
+0.00947442
+0.0
+0.0
+0.0
+0.0
+0.006351237
+0.011901657
+0.0
+0.008573521
+0.064919956
+0.02906328
+0.0
+0.034913905
+0.0
+0.008581247
+0.0
+0.0
+0.0
+0.002936539
+0.0
+0.0077226567
+0.028220756
+0.0
+0.0
+0.0070405323
+0.0
+0.010949692
+0.016014887
+0.033976138
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0060717217
+0.0
+0.0
+0.0
+0.013219908
+0.016004035
+0.008440769
+0.03470738
+0.08139115
+0.0
+0.0
+0.0
+0.0
+0.006710186
+0.011552641
+0.0
+0.0049434686
+0.0
+0.0
+0.0
+0.0
+0.0068309833
+0.012293564
+0.0
+0.0
+Legend
+Recall -  measures the fraction of relevant links that are retrieved
+Precision - measures the fraction of retrieved links that are relevant
+F-measure - measures the harmonic mean of recall and precision
+F2-measure - favors recall
+F0.5-measure - favors precision
+Average Precision - summarizes a precision-recall curve as the weighted mean of precisions achieved at each threshold
+
+   Accuracy  Precision    Recall        F1        F2      F0.5  \
+0  0.998662        0.9  0.529412  0.666667  0.576923  0.789474   
+
+   Average Precision  
+0            0.47766  
+
+--------------------------------------------------------------------
+
+C:\Users\rande\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+
+[12:31:24] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+Elapsed time to compute best fit: 1577.642 seconds
+Cross-validation score: 0.8497299622751753
+Test score: 0.8196721311475408
+Best Hyperparameters: {'classifier__min_child_weight': 8, 'classifier__max_depth': 8, 'classifier__learning_rate': 0.45, 'classifier__gamma': 0.2, 'classifier__colsample_bytree': 0.5}
+0.021560512
+0.027839275
+0.051766373
+0.0
+0.030643342
+0.018056085
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0044640508
+0.0
+0.0
+0.0
+0.0
+0.019562054
+0.0
+0.0
+0.0
+0.0
+0.03433429
+0.004048693
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.00678215
+0.0032386028
+0.0032997862
+0.0
+0.0
+0.01690284
+0.0
+0.0
+0.0
+0.0017157439
+0.020879833
+0.009221524
+0.0025563424
+0.0
+0.022975344
+0.005690689
+0.007867163
+0.0029576393
+0.0
+0.0
+0.0
+0.0071472316
+0.0034484386
+0.0057322225
+0.0
+0.0
+0.0
+0.0035884585
+0.0
+0.0029458625
+0.044825643
+0.019823156
+0.087951675
+0.0031114258
+0.0
+0.004201674
+0.0
+0.0
+0.0
+0.0
+0.011243507
+0.012281776
+0.0
+0.017435728
+0.0
+0.0
+0.0
+0.0
+0.011016286
+0.011738985
+0.0074276146
+0.0028014742
+0.040954806
+0.031147327
+0.0
+0.012913598
+0.027858237
+0.0
+0.0
+0.0020737506
+0.0
+0.0
+0.0
+0.06996142
+0.03812156
+0.0012373829
+0.013638136
+0.0053170654
+0.0
+0.004299153
+0.027826602
+0.0
+0.0
+0.0
+0.0
+0.0036346067
+0.012151661
+0.0
+0.0
+0.0
+0.0
+0.0026799892
+0.003964859
+0.022807378
+0.006960016
+0.029331412
+0.0055740415
+0.0
+0.0060198964
+0.0
+0.00789829
+0.017043674
+0.0043951375
+0.0
+0.0
+0.0
+0.012781441
+0.0
+0.0038203602
+0.007558233
+0.0049464907
+0.0
+Legend
+Recall -  measures the fraction of relevant links that are retrieved
+Precision - measures the fraction of retrieved links that are relevant
+F-measure - measures the harmonic mean of recall and precision
+F2-measure - favors recall
+F0.5-measure - favors precision
+Average Precision - summarizes a precision-recall curve as the weighted mean of precisions achieved at each threshold
+
+   Accuracy  Precision    Recall        F1        F2      F0.5  \
+0  0.998811   0.909091  0.588235  0.714286  0.632911  0.819672   
+
+   Average Precision  
+0             0.5358  
+
+--------------------------------------------------------------------
+
+C:\Users\rande\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+
+[12:55:50] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+Elapsed time to compute best fit: 1463.951 seconds
+Cross-validation score: 0.8446542141972865
+Test score: 0.7142857142857142
+Best Hyperparameters: {'classifier__min_child_weight': 9, 'classifier__max_depth': 18, 'classifier__learning_rate': 0.2, 'classifier__gamma': 0.5, 'classifier__colsample_bytree': 0.1}
+0.026732758
+0.037726726
+0.06077956
+0.0
+0.017914757
+0.008229824
+0.015086775
+0.0
+0.016408673
+0.0
+0.0
+0.013863689
+0.019972391
+0.0
+0.0
+0.004130502
+0.013439454
+0.01399612
+0.0045120697
+0.008067756
+0.015026296
+0.030410785
+0.0030196575
+0.0
+0.008142442
+0.0062180515
+0.0
+0.0
+0.0
+0.006456691
+0.0
+0.0027621996
+0.0017594278
+0.005756169
+0.0072576
+0.0026513415
+0.016707871
+0.005406138
+0.022539593
+0.0072467956
+0.00867134
+0.0060078516
+0.0
+0.0020058423
+0.0072750123
+0.00684738
+0.009700471
+0.0
+0.0
+0.0
+0.0046681636
+0.00830628
+0.005067847
+0.0
+0.00083720253
+0.0
+0.013598829
+0.00411747
+0.0132589815
+0.002983445
+0.07720753
+0.010574554
+0.00524705
+0.0037883106
+0.011732213
+0.0044332086
+0.005990598
+0.0
+0.0
+0.0049040345
+0.003409336
+0.0
+0.007793587
+0.0
+0.0
+0.0
+0.0
+0.0036099942
+0.0040914775
+0.0065767337
+0.0017539486
+0.0145293735
+0.012037316
+0.013183395
+0.015100542
+0.013115652
+0.005768173
+0.0041132164
+0.0
+0.0
+0.0
+0.0
+0.0034480256
+0.01410546
+0.010831781
+0.0
+0.0024328902
+0.0
+0.005691136
+0.011201524
+0.004156047
+0.004452
+0.0
+0.004401333
+0.012373188
+0.0
+0.019375289
+0.0
+0.0
+0.011378876
+0.0034251288
+0.0043746526
+0.0059745107
+0.02876218
+0.027378522
+0.027992519
+0.0076098396
+0.0060831117
+0.0016308997
+0.0
+0.0034457676
+0.0028548478
+0.0021779635
+0.0
+0.0
+0.00585637
+0.013508975
+0.004204159
+0.0030448975
+0.0028420147
+0.020457637
+Legend
+Recall -  measures the fraction of relevant links that are retrieved
+Precision - measures the fraction of retrieved links that are relevant
+F-measure - measures the harmonic mean of recall and precision
+F2-measure - favors recall
+F0.5-measure - favors precision
+Average Precision - summarizes a precision-recall curve as the weighted mean of precisions achieved at each threshold
+
+   Accuracy  Precision    Recall    F1        F2      F0.5  Average Precision
+0  0.998365      0.875  0.411765  0.56  0.460526  0.714286           0.361781
+
+--------------------------------------------------------------------
+
+C:\Users\rande\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+
+[13:21:40] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+Elapsed time to compute best fit: 1552.473 seconds
+Cross-validation score: 0.8542276096974553
+Test score: 0.7547169811320755
+Best Hyperparameters: {'classifier__min_child_weight': 9, 'classifier__max_depth': 12, 'classifier__learning_rate': 0.15, 'classifier__gamma': 0.6, 'classifier__colsample_bytree': 0.5}
+0.024931524
+0.03822822
+0.04687051
+0.0
+0.01965612
+0.02132261
+0.014990511
+0.0
+0.0077291424
+0.0
+0.036588494
+0.016875412
+0.0
+0.0
+0.017739933
+0.0
+0.0029495233
+0.0
+0.0
+0.0
+0.0
+0.015647806
+0.005741821
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.011229184
+0.0
+0.0
+0.011563364
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0058031385
+0.007931607
+0.012196987
+0.045818765
+0.0
+0.015322033
+0.0073864046
+0.020241577
+0.011707165
+0.0
+0.0
+0.0
+0.0
+0.0020897326
+0.012065257
+0.0
+0.0
+0.0
+0.0
+0.0
+0.007942546
+0.03337781
+0.03261434
+0.0060917716
+0.008925593
+0.0
+0.006385274
+0.006093991
+0.0
+0.0
+0.0
+0.008820986
+0.0
+0.0
+0.00736623
+0.0
+0.0
+0.0
+0.0
+0.009633335
+0.013587448
+0.0
+0.008114522
+0.03484205
+0.024160473
+0.022698717
+0.030311536
+0.00267958
+0.0
+0.0
+0.0023222202
+0.0
+0.006374021
+0.0
+0.0
+0.024771001
+0.0
+0.016185261
+0.0035681357
+0.0
+0.010850779
+0.014237871
+0.0040608547
+0.0
+0.0
+0.0
+0.037988506
+0.0
+0.0
+0.0
+0.0
+0.0
+0.022760382
+0.004910439
+0.011697015
+0.019488523
+0.027556693
+0.0
+0.0
+0.0
+0.0
+0.005687642
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0859819
+0.0052857506
+0.0
+0.0
+Legend
+Recall -  measures the fraction of relevant links that are retrieved
+Precision - measures the fraction of retrieved links that are relevant
+F-measure - measures the harmonic mean of recall and precision
+F2-measure - favors recall
+F0.5-measure - favors precision
+Average Precision - summarizes a precision-recall curve as the weighted mean of precisions achieved at each threshold
+
+   Accuracy  Precision    Recall        F1        F2      F0.5  \
+0  0.998513   0.888889  0.470588  0.615385  0.519481  0.754717   
+
+   Average Precision  
+0           0.419639  
+
+--------------------------------------------------------------------
+
+C:\Users\rande\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+
+[13:48:38] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+Elapsed time to compute best fit: 1615.634 seconds
+Cross-validation score: 0.8458783990820603
+Test score: 0.8196721311475408
+Best Hyperparameters: {'classifier__min_child_weight': 9, 'classifier__max_depth': 10, 'classifier__learning_rate': 0.5, 'classifier__gamma': 0.8, 'classifier__colsample_bytree': 0.1}
+0.025749452
+0.004644315
+0.05867049
+0.0
+0.03516347
+0.0045514656
+0.009686741
+0.0
+0.04512978
+0.0
+0.0
+0.0
+0.020791376
+0.0
+0.0
+0.013732168
+0.020636719
+0.0
+0.0
+0.045236383
+6.9532085e-05
+0.036768816
+0.0
+0.014264507
+0.0
+0.0
+0.0033193193
+0.0
+0.0
+0.0039813183
+0.0
+0.0
+0.0
+0.0
+0.005506706
+0.0
+0.0
+0.0
+0.0034413298
+0.012234182
+0.011307478
+0.008440884
+0.019843698
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.008168569
+0.0
+0.0
+0.0
+0.01012757
+0.0040559433
+0.0054167365
+0.0
+0.03178626
+0.019220503
+0.0029711681
+0.0
+0.004583915
+0.0054442124
+0.0
+0.0
+0.0
+0.0034023772
+0.0
+0.0
+0.018696396
+0.0
+0.0
+0.0
+0.0
+0.0032373322
+0.0
+0.010661216
+0.0
+0.022663988
+0.02283943
+0.0
+0.015172886
+0.025712265
+0.014106925
+0.0
+0.0
+0.0
+0.003476219
+0.0
+0.0
+0.015598697
+0.0022140667
+0.0
+0.0
+0.0
+0.017095245
+0.026107704
+0.0
+0.0
+0.010965436
+0.0
+0.0039353254
+0.005850228
+0.006155833
+0.0
+0.0
+0.0028190045
+0.0041900896
+0.0028554152
+0.0069243438
+0.023979144
+0.16397148
+0.0034385815
+0.0037821326
+0.0
+0.0
+0.005357868
+0.0053124907
+0.0
+0.0
+0.0
+0.0
+0.015154032
+0.009006847
+0.004970985
+0.013767148
+0.0
+0.01163381
+Legend
+Recall -  measures the fraction of relevant links that are retrieved
+Precision - measures the fraction of retrieved links that are relevant
+F-measure - measures the harmonic mean of recall and precision
+F2-measure - favors recall
+F0.5-measure - favors precision
+Average Precision - summarizes a precision-recall curve as the weighted mean of precisions achieved at each threshold
+
+   Accuracy  Precision    Recall        F1        F2      F0.5  \
+0  0.998811   0.909091  0.588235  0.714286  0.632911  0.819672   
+
+   Average Precision  
+0             0.5358  
+
+--------------------------------------------------------------------
+
+C:\Users\rande\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+
+[14:10:34] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+Elapsed time to compute best fit: 1316.469 seconds
+Cross-validation score: 0.85719565122754
+Test score: 0.7547169811320755
+Best Hyperparameters: {'classifier__min_child_weight': 9, 'classifier__max_depth': 8, 'classifier__learning_rate': 0.25, 'classifier__gamma': 0.7, 'classifier__colsample_bytree': 0.4}
+0.03427433
+0.024026891
+0.059154663
+0.0
+0.02670473
+0.01309761
+0.0032554117
+0.017992172
+0.012032217
+0.0
+0.025996964
+0.0153171485
+0.0
+0.0
+0.021596195
+0.0
+0.007035267
+0.0
+0.0
+0.0
+0.0
+0.026622672
+0.0068079936
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.006192505
+0.0
+0.0
+0.0
+0.0
+0.011458404
+0.002992041
+0.0
+0.015967546
+0.0
+0.0050261426
+0.00918426
+0.0038674907
+0.0
+0.0
+0.01098137
+0.013812696
+0.0063290223
+0.0
+0.0
+0.0
+0.0056372797
+0.009895047
+0.011704995
+0.0
+0.0
+0.0
+0.0
+0.0
+0.010726214
+0.031626597
+0.025249047
+0.058522914
+0.0
+0.0
+0.004468826
+0.0
+0.0
+0.0
+0.0
+0.01067848
+0.0040159454
+0.0
+0.00570487
+0.0
+0.0
+0.0
+0.0
+0.015944753
+0.01436793
+0.0
+0.0069651376
+0.03777639
+0.0
+0.0039859163
+0.0074568945
+0.023066541
+0.00476132
+0.0
+0.0054852194
+0.0
+0.013512643
+0.0
+0.0
+0.026278494
+0.0053675645
+0.0
+0.007682028
+0.0
+0.014353572
+0.013799093
+0.00468333
+0.026142461
+0.0042163883
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.011563001
+0.005188501
+0.0050391294
+0.018882131
+0.029865928
+0.0
+0.0
+0.0
+0.0
+0.005319374
+0.0
+0.021042485
+0.0
+0.0
+0.0
+0.0041837962
+0.034027103
+0.054930437
+0.0
+0.007899172
+0.008257279
+Legend
+Recall -  measures the fraction of relevant links that are retrieved
+Precision - measures the fraction of retrieved links that are relevant
+F-measure - measures the harmonic mean of recall and precision
+F2-measure - favors recall
+F0.5-measure - favors precision
+Average Precision - summarizes a precision-recall curve as the weighted mean of precisions achieved at each threshold
+
+   Accuracy  Precision    Recall        F1        F2      F0.5  \
+0  0.998513   0.888889  0.470588  0.615385  0.519481  0.754717   
+
+   Average Precision  
+0           0.419639  
+
+--------------------------------------------------------------------
+
+C:\Users\rande\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+
+[14:37:32] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+Elapsed time to compute best fit: 1618.109 seconds
+Cross-validation score: 0.8548806139195155
+Test score: 0.7894736842105263
+Best Hyperparameters: {'classifier__min_child_weight': 10, 'classifier__max_depth': 4, 'classifier__learning_rate': 0.4, 'classifier__gamma': 0.0, 'classifier__colsample_bytree': 0.4}
+0.053036023
+0.025047049
+0.049370904
+0.0
+0.03856293
+0.0
+0.0
+0.0
+0.0
+0.0
+0.021348845
+0.014576314
+0.0
+0.0
+0.036042333
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.014758381
+0.0084349075
+0.0
+0.005643399
+0.0
+0.0
+0.0
+0.0
+0.009489514
+0.0
+0.0030900752
+0.008831001
+0.0
+0.0
+0.0
+0.0
+0.00019795279
+0.0
+0.011011216
+0.0033490395
+0.004884226
+0.0
+0.022805437
+0.012400437
+0.0
+0.012034617
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0020313228
+0.0
+0.0
+0.0
+0.0
+0.013274235
+0.0064289956
+0.027832383
+0.038672805
+0.09641774
+0.0
+0.0
+0.002132418
+0.0
+0.0
+0.0
+0.0
+0.019066326
+0.002802162
+0.0
+0.010757678
+0.0
+0.0
+0.0
+0.0
+0.0048354734
+0.0038504964
+0.003415726
+0.006111689
+0.031844296
+0.02270243
+0.0
+0.030558914
+0.015611344
+0.010063558
+0.0
+0.003579439
+0.0
+0.0
+0.0
+0.0038801734
+0.036823627
+0.0
+0.0054801055
+0.0033265527
+0.0
+0.0029396454
+0.0075254957
+0.0018045546
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.007174504
+0.0050197053
+0.008085099
+0.042056523
+0.02372565
+0.0
+0.0
+0.0
+0.0
+0.005984654
+0.0
+0.0
+0.0029428932
+0.0
+0.0
+0.004061439
+0.09698823
+0.011816272
+0.004782433
+0.018678369
+0.0
+Legend
+Recall -  measures the fraction of relevant links that are retrieved
+Precision - measures the fraction of retrieved links that are relevant
+F-measure - measures the harmonic mean of recall and precision
+F2-measure - favors recall
+F0.5-measure - favors precision
+Average Precision - summarizes a precision-recall curve as the weighted mean of precisions achieved at each threshold
+
+   Accuracy  Precision    Recall        F1        F2      F0.5  \
+0  0.998662        0.9  0.529412  0.666667  0.576923  0.789474   
+
+   Average Precision  
+0            0.47766  
+
+--------------------------------------------------------------------
+
+C:\Users\rande\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+
+[15:04:01] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+Elapsed time to compute best fit: 1590.350 seconds
+Cross-validation score: 0.8464678721894343
+Test score: 0.8490566037735848
+Best Hyperparameters: {'classifier__min_child_weight': 9, 'classifier__max_depth': 10, 'classifier__learning_rate': 0.2, 'classifier__gamma': 0.8, 'classifier__colsample_bytree': 0.7}
+0.019652613
+0.031945977
+0.049260207
+0.0
+0.030905545
+0.0281318
+0.003397284
+0.0077405185
+0.0
+0.0
+0.052933987
+0.02028257
+0.0
+0.0
+0.0
+0.0
+0.026101062
+0.0
+0.0
+0.0
+0.0
+0.018232187
+0.007995358
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.027188566
+0.007074063
+0.0
+0.0
+0.0
+0.0
+0.0
+0.003278768
+0.009361759
+0.017897118
+0.0056759757
+0.0
+0.0
+0.013334361
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0064019533
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.009941711
+0.020979464
+0.034869824
+0.051971354
+0.007837287
+0.0
+0.008253629
+0.0
+0.0
+0.0
+0.0
+0.018362172
+0.0
+0.0
+0.013990297
+0.0
+0.0
+0.0
+0.0
+0.012427846
+0.009707421
+0.0
+0.0064838454
+0.047591012
+0.010974422
+0.012714086
+0.039487854
+0.0
+0.0055994447
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0064037335
+0.026491582
+0.0
+0.0
+0.0
+0.0
+0.0070368582
+0.0144041665
+0.007023714
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0032410182
+0.0
+0.010917805
+0.03242905
+0.002836398
+0.0345266
+0.030281477
+0.0
+0.0
+0.0
+0.0
+0.0076565347
+0.01991362
+0.0
+0.0076359226
+0.0
+0.0
+0.0
+0.0
+0.06334662
+0.018306224
+0.0
+0.009565271
+Legend
+Recall -  measures the fraction of relevant links that are retrieved
+Precision - measures the fraction of retrieved links that are relevant
+F-measure - measures the harmonic mean of recall and precision
+F2-measure - favors recall
+F0.5-measure - favors precision
+Average Precision - summarizes a precision-recall curve as the weighted mean of precisions achieved at each threshold
+
+   Accuracy  Precision    Recall        F1        F2      F0.5  \
+0  0.998811        1.0  0.529412  0.692308  0.584416  0.849057   
+
+   Average Precision  
+0           0.530601  
+
+--------------------------------------------------------------------
+
+C:\Users\rande\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+
+[15:31:38] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+Elapsed time to compute best fit: 1655.128 seconds
+Cross-validation score: 0.8129378104760109
+Test score: 0.8163265306122449
+Best Hyperparameters: {'classifier__min_child_weight': 9, 'classifier__max_depth': 20, 'classifier__learning_rate': 0.15, 'classifier__gamma': 0.1, 'classifier__colsample_bytree': 0.4}
+0.026006244
+0.022046484
+0.045029353
+0.0
+0.019284198
+0.017917275
+0.01033071
+0.007340756
+0.0101024825
+0.0
+0.014959042
+0.02415356
+0.0
+0.0
+0.016830893
+0.0
+0.01412655
+0.0
+0.0
+0.0
+0.05137559
+0.020309493
+0.0042034127
+0.012052975
+0.0
+0.0
+0.0
+0.0
+0.0
+0.010477022
+0.0
+0.0
+0.004926236
+0.0
+0.0
+0.0073308377
+0.0
+0.0
+0.0031581637
+0.007556921
+0.008704364
+0.0
+0.0
+0.0
+0.0060570766
+0.023115661
+0.0
+0.0
+0.0
+0.0
+0.010196032
+0.0036882882
+0.008365888
+0.0
+0.0
+0.0
+0.012011295
+0.006214987
+0.005119727
+0.03161026
+0.031415936
+0.038546715
+0.0
+0.0
+0.0050434317
+0.0035702463
+0.0
+0.012232315
+0.005965378
+0.0076791286
+0.0148568675
+0.0015452402
+0.0030402371
+0.0
+0.0022390275
+0.0
+0.00063958915
+0.0039835884
+0.011836231
+0.0
+0.0050011277
+0.036673453
+0.0120039815
+0.008673553
+0.0076352153
+0.013912965
+0.011563927
+0.004950574
+0.00050422363
+0.0
+0.0
+0.0010410643
+0.007218116
+0.018582938
+0.0
+0.0
+0.0
+0.0
+0.0052456614
+0.0068703494
+0.0032902337
+0.0
+0.0
+0.0
+0.0
+0.0007599437
+0.03928987
+0.0019488706
+0.0
+0.0
+0.0055633867
+0.0038283702
+0.010227655
+0.018277142
+0.02383331
+0.011116685
+0.0
+0.009123291
+0.0
+0.005814646
+0.0
+0.0050259978
+0.004925007
+0.0
+0.0043054107
+0.007832285
+0.005240572
+0.061183225
+0.009873333
+0.010913247
+0.010554651
+Legend
+Recall -  measures the fraction of relevant links that are retrieved
+Precision - measures the fraction of retrieved links that are relevant
+F-measure - measures the harmonic mean of recall and precision
+F2-measure - favors recall
+F0.5-measure - favors precision
+Average Precision - summarizes a precision-recall curve as the weighted mean of precisions achieved at each threshold
+
+   Accuracy  Precision    Recall    F1        F2      F0.5  Average Precision
+0  0.998662        1.0  0.470588  0.64  0.526316  0.816327           0.471926
+
+--------------------------------------------------------------------
+
+C:\Users\rande\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+
+[15:58:25] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+Elapsed time to compute best fit: 1610.341 seconds
+Cross-validation score: 0.8205601271372291
+Test score: 0.8196721311475408
+Best Hyperparameters: {'classifier__min_child_weight': 1, 'classifier__max_depth': 16, 'classifier__learning_rate': 0.3, 'classifier__gamma': 0.5, 'classifier__colsample_bytree': 0.6}
+0.011550461
+0.011604438
+0.02895118
+0.013118866
+0.0100187855
+0.009646072
+0.0
+0.0
+0.0033081407
+0.0
+0.010277249
+0.007582264
+0.0067554377
+0.0
+0.014296851
+0.0
+0.006252659
+0.0032773053
+0.0003319789
+0.011039456
+0.0034187606
+0.0014939051
+0.01355025
+0.003963089
+0.0060328627
+0.0
+0.0
+0.0059904745
+0.005005407
+0.0067595853
+0.0074776006
+0.009531767
+0.008361477
+0.0033710464
+0.0046621943
+0.008159931
+0.0
+0.009051994
+0.008165392
+0.021959629
+0.015344231
+0.014953682
+0.0
+0.01984462
+0.017529428
+0.009840759
+0.0042241183
+0.0
+0.0
+0.0
+0.007286539
+0.009655498
+0.0073590656
+0.0
+0.0
+0.0061943573
+0.0057758456
+0.005167599
+0.006184007
+0.039415598
+0.04089532
+0.052263193
+0.0
+0.0
+0.0
+0.0040512118
+0.0
+0.0
+0.011364989
+0.0076627554
+0.0
+0.0
+0.007867506
+0.0
+0.0
+0.0
+0.0
+0.009335338
+0.011347381
+0.0
+0.014983074
+0.014289804
+0.008337762
+0.0069051967
+0.0101161655
+0.014028837
+0.0052474565
+0.0
+0.01572709
+0.0
+0.0066719484
+0.0
+0.05135146
+0.008404897
+0.0
+0.009124359
+0.004326393
+0.007626564
+0.0055749146
+0.013703782
+0.00568754
+0.0
+0.0066563697
+0.0
+0.0036388584
+0.007269131
+0.0031246836
+0.011790436
+0.0
+0.00509767
+0.00662497
+0.01178183
+0.0040567312
+0.010298875
+0.015187291
+0.005429163
+0.0039990214
+0.0077617727
+0.0
+0.0
+0.006770429
+0.008942872
+0.007090765
+0.007959576
+0.00449785
+0.013374662
+0.01989262
+0.024779392
+0.0073880786
+0.005950091
+0.0
+Legend
+Recall -  measures the fraction of relevant links that are retrieved
+Precision - measures the fraction of retrieved links that are relevant
+F-measure - measures the harmonic mean of recall and precision
+F2-measure - favors recall
+F0.5-measure - favors precision
+Average Precision - summarizes a precision-recall curve as the weighted mean of precisions achieved at each threshold
+
+   Accuracy  Precision    Recall        F1        F2      F0.5  \
+0  0.998811   0.909091  0.588235  0.714286  0.632911  0.819672   
+
+   Average Precision  
+0             0.5358  
+
+--------------------------------------------------------------------
+
+C:\Users\rande\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+
+[16:25:14] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+Elapsed time to compute best fit: 1604.186 seconds
+Cross-validation score: 0.8153019444596916
+Test score: 0.8196721311475408
+Best Hyperparameters: {'classifier__min_child_weight': 8, 'classifier__max_depth': 6, 'classifier__learning_rate': 0.25, 'classifier__gamma': 0.5, 'classifier__colsample_bytree': 0.2}
+0.027775861
+0.013272541
+0.045608334
+0.0
+0.022138378
+0.017839454
+0.0
+0.0
+0.013191399
+0.0
+0.03345795
+0.0076160557
+0.0
+0.0
+0.022416987
+0.0029436173
+0.0072338195
+0.0
+0.0050097983
+0.007875052
+0.009264523
+0.008814718
+0.002067263
+0.0
+0.010246973
+0.0
+0.055512976
+0.0
+0.006830457
+0.008872026
+0.0
+0.001894556
+0.0
+0.0
+0.007602263
+0.011005656
+0.0
+0.0
+0.0
+0.0132987965
+0.0061636777
+0.0016034539
+0.0
+0.0093309125
+0.0031282706
+0.017251533
+0.004870727
+0.0
+0.0
+0.0
+0.0
+0.007303255
+0.01613245
+0.0
+0.0
+0.0
+0.025140682
+0.0045117987
+0.00870433
+0.0019389183
+0.08446522
+0.024680603
+0.0036393953
+0.0
+0.008112508
+0.0
+0.0
+0.0068287184
+0.007967316
+0.0061314367
+0.0076532047
+0.0
+0.0016289313
+0.0
+0.0
+0.0
+0.0
+0.004427312
+0.0049135834
+0.0
+0.00631002
+0.018251834
+0.022200441
+0.0126425475
+0.02001679
+0.008819065
+0.005524102
+0.0
+0.0018096062
+0.0
+0.0
+0.0
+0.0015466233
+0.012877299
+0.005725855
+0.0047012665
+0.0024108118
+0.0
+0.0056231264
+0.019524138
+0.0055325013
+0.0
+0.0
+0.0
+0.0025927203
+0.007107439
+0.0026677388
+0.0
+0.0
+0.0
+0.00404515
+0.007803235
+0.0
+0.024686007
+0.047526672
+0.052478924
+0.0
+0.0035583074
+0.021716846
+0.001512473
+0.0050019347
+0.0
+0.0044790506
+0.0
+0.0
+0.0076362807
+0.009493644
+0.0
+0.0019854188
+0.00290303
+0.010971395
+Legend
+Recall -  measures the fraction of relevant links that are retrieved
+Precision - measures the fraction of retrieved links that are relevant
+F-measure - measures the harmonic mean of recall and precision
+F2-measure - favors recall
+F0.5-measure - favors precision
+Average Precision - summarizes a precision-recall curve as the weighted mean of precisions achieved at each threshold
+
+   Accuracy  Precision    Recall        F1        F2      F0.5  \
+0  0.998811   0.909091  0.588235  0.714286  0.632911  0.819672   
+
+   Average Precision  
+0             0.5358  
+
+--------------------------------------------------------------------
+
+C:\Users\rande\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+
+[16:52:28] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+Elapsed time to compute best fit: 1633.971 seconds
+Cross-validation score: 0.8478528673959396
+Test score: 0.9016393442622951
+Best Hyperparameters: {'classifier__min_child_weight': 6, 'classifier__max_depth': 12, 'classifier__learning_rate': 0.3, 'classifier__gamma': 0.9, 'classifier__colsample_bytree': 0.1}
+0.035369776
+0.014893533
+0.06803456
+0.0
+0.02939984
+0.0036060254
+0.011022779
+0.0
+0.02052114
+0.0
+0.0
+0.0047865217
+0.0
+0.022504857
+0.008618528
+0.005266931
+0.012935544
+0.0
+0.0
+0.016192578
+0.020130567
+0.020178556
+0.022035925
+0.0165817
+0.009085895
+0.0
+0.00216698
+0.0
+0.0
+0.009083301
+0.0
+0.008643912
+0.0
+0.0054228567
+0.0035533593
+0.0062441174
+0.023199294
+0.004024435
+0.003312061
+0.009331788
+0.015374236
+0.024462676
+0.007033486
+0.0
+0.003752723
+0.011944908
+0.005656724
+0.0
+0.0
+0.0
+0.0043285433
+0.011128874
+0.011721912
+0.0
+0.0
+0.0
+0.015606434
+0.006557774
+0.015497474
+0.012637364
+0.053854227
+0.008460515
+0.0029194192
+0.0037564049
+0.0049953912
+0.0044701677
+0.0
+0.0
+0.0047855293
+0.0040799496
+0.003131086
+0.0047438727
+0.006218603
+0.0
+0.0
+0.0
+0.0014917498
+0.0013665643
+0.0031057307
+0.016517341
+0.0036293922
+0.015713511
+0.012749065
+0.008067723
+0.019126315
+0.0075737024
+0.0043664183
+0.005988781
+0.0040551336
+0.0
+0.002589488
+0.0
+0.0059419246
+0.011081782
+0.006096587
+0.0
+0.0088038435
+0.0
+0.007815573
+0.01561368
+0.0
+0.0
+0.0036370547
+0.0
+0.004813884
+0.0047428943
+0.0
+0.0
+0.0
+0.0
+0.005833966
+0.008442874
+0.007050569
+0.02883008
+0.030094186
+0.012918761
+0.0
+0.019046374
+0.0
+0.007432127
+0.0
+0.011061512
+0.0
+0.0
+0.0022885138
+0.008134349
+0.0051248022
+0.0030021064
+0.0021825559
+0.0043438417
+0.0060596536
+Legend
+Recall -  measures the fraction of relevant links that are retrieved
+Precision - measures the fraction of retrieved links that are relevant
+F-measure - measures the harmonic mean of recall and precision
+F2-measure - favors recall
+F0.5-measure - favors precision
+Average Precision - summarizes a precision-recall curve as the weighted mean of precisions achieved at each threshold
+
+   Accuracy  Precision    Recall        F1        F2      F0.5  \
+0  0.999108        1.0  0.647059  0.785714  0.696203  0.901639   
+
+   Average Precision  
+0           0.647951  
+
+--------------------------------------------------------------------

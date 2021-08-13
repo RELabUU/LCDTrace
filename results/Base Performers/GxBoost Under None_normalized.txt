@@ -1,0 +1,1489 @@
+C:\Python39\lib\site-packages\sklearn\model_selection\_search.py:285: UserWarning: The total space of parameters 1 is smaller than n_iter=100. Running 1 iterations. For exhaustive searches, use GridSearchCV.
+  warnings.warn(
+C:\Users\rande\AppData\Roaming\Python\Python39\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+
+[00:22:01] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+Elapsed time to compute best fit: 502.303 seconds
+Cross-validation score: 0.04320230584306044
+Test score: 0.043667486645027
+Best Hyperparameters: {}
+0.007583235
+0.23107478
+0.033864174
+0.013826348
+0.010227992
+0.016079385
+0.025135862
+0.00296999
+0.0055461237
+0.02972267
+0.0040868735
+0.011500069
+0.01869087
+0.0
+0.03882049
+0.0
+0.0119304685
+0.04471317
+0.017980836
+0.0047883997
+0.014115656
+0.0
+0.0050468706
+0.00766572
+0.0034450442
+0.013139528
+0.0015780872
+0.027764615
+0.0140162185
+0.0031446908
+0.0026618687
+0.0070109065
+0.0051157363
+0.0014961071
+0.0020083822
+0.0
+0.0
+0.0
+0.00404466
+0.004524709
+0.0057578087
+0.004399316
+0.0046295524
+0.0032304856
+0.0033975143
+0.0017131665
+0.005387907
+0.0
+0.0
+0.0
+0.002034045
+0.0018491148
+0.003518395
+0.011928176
+0.0
+0.0026709225
+0.0058506657
+0.004988974
+0.0059873406
+0.00546509
+0.0018297927
+0.0020957717
+0.005425507
+0.0032038516
+0.0060200943
+0.0009732156
+0.0032058274
+0.008872257
+0.0036362766
+0.006022381
+0.0023618417
+0.0009200553
+0.025913812
+0.0020317237
+0.004185554
+0.0
+0.010587335
+0.010527892
+0.0073356754
+0.006642817
+0.004095067
+0.003733054
+0.0073131453
+0.0018177412
+0.0039563854
+0.0051865
+0.006037249
+0.0034715582
+0.002411767
+0.010140995
+0.0022703558
+0.0021468194
+0.006287467
+0.0043906197
+0.011432401
+0.0043681413
+0.0019949956
+0.0015348913
+0.0077128187
+0.0064320816
+0.004358257
+0.009657733
+0.0015068845
+0.0
+0.005594426
+0.0042418297
+0.0
+0.0012989184
+0.0023302217
+0.0
+0.0044677267
+0.00447245
+0.0
+0.0077113453
+0.004924944
+0.0
+0.0038815492
+0.0030684464
+0.0
+0.004686966
+0.003398686
+0.003371186
+0.0043735583
+Legend
+Recall -  measures the fraction of relevant links that are retrieved
+Precision - measures the fraction of retrieved links that are relevant
+F-measure - measures the harmonic mean of recall and precision
+F2-measure - favors recall
+F0.5-measure - favors precision
+Average Precision - summarizes a precision-recall curve as the weighted mean of precisions achieved at each threshold
+
+   Accuracy  Precision    Recall        F1        F2      F0.5  \
+0  0.940217   0.035253  0.966184  0.068023  0.153815  0.043667   
+
+   Average Precision  
+0           0.034137  
+
+--------------------------------------------------------------------
+
+C:\Python39\lib\site-packages\sklearn\model_selection\_search.py:285: UserWarning: The total space of parameters 1 is smaller than n_iter=100. Running 1 iterations. For exhaustive searches, use GridSearchCV.
+  warnings.warn(
+C:\Users\rande\AppData\Roaming\Python\Python39\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+
+[00:28:55] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+Elapsed time to compute best fit: 410.028 seconds
+Cross-validation score: 0.04292272414907279
+Test score: 0.04420051225759239
+Best Hyperparameters: {}
+0.008306016
+0.22783807
+0.029539155
+0.0044335984
+0.010625641
+0.01770665
+0.033131745
+0.00858505
+0.008847316
+0.0067322035
+0.006765399
+0.011627461
+0.0105073145
+0.0
+0.014149268
+0.0
+0.026945796
+0.018653609
+0.007372214
+0.048964165
+0.0027942641
+0.0185859
+0.0030996047
+0.0
+0.004027412
+0.00086532446
+0.009682096
+0.028231628
+0.04736752
+0.000854129
+0.002744604
+0.0010105104
+0.0067344536
+0.004173611
+0.006170635
+0.0
+0.0
+0.0
+0.007271174
+0.0073794746
+0.0037745645
+0.004772758
+0.0037451256
+0.0041169412
+0.0039549824
+0.0021429614
+0.0032255175
+0.0
+0.0
+0.0
+0.0027525302
+0.005428027
+0.002893585
+0.00037023178
+0.006227321
+0.0050026975
+0.0051085427
+0.0042262445
+0.0056973523
+0.0049883155
+0.0034658646
+0.00489964
+0.0063484414
+0.011603917
+0.004077446
+0.003482199
+0.0038974606
+0.0
+0.0027733704
+0.0076724146
+0.003855445
+0.0039088917
+0.02722163
+0.0019703521
+0.0014359428
+0.00079306925
+0.0070125163
+0.008921364
+0.007383697
+0.0037811913
+0.003250019
+0.0037526896
+0.0059643066
+0.0028620036
+0.006391893
+0.0039574443
+0.0043632956
+0.005536666
+0.005513033
+0.0028245936
+0.0020276427
+0.008481216
+0.0054533556
+0.004865932
+0.0064400914
+0.0035969375
+0.0039625335
+0.0007919014
+0.009130087
+0.005999179
+0.0033392834
+0.004506872
+0.0027267002
+0.0
+0.002537422
+0.0037905022
+0.0
+0.0035746498
+0.005321792
+0.0
+0.002782085
+0.003120987
+0.0
+0.005100255
+0.0060076225
+0.0
+0.008975511
+0.0031330425
+0.0
+0.004382651
+0.0029410855
+0.003583596
+0.0043553878
+Legend
+Recall -  measures the fraction of relevant links that are retrieved
+Precision - measures the fraction of retrieved links that are relevant
+F-measure - measures the harmonic mean of recall and precision
+F2-measure - favors recall
+F0.5-measure - favors precision
+Average Precision - summarizes a precision-recall curve as the weighted mean of precisions achieved at each threshold
+
+   Accuracy  Precision    Recall        F1       F2      F0.5  \
+0  0.940587   0.035685  0.972625  0.068844  0.15559  0.044201   
+
+   Average Precision  
+0            0.03477  
+
+--------------------------------------------------------------------
+
+C:\Python39\lib\site-packages\sklearn\model_selection\_search.py:285: UserWarning: The total space of parameters 1 is smaller than n_iter=100. Running 1 iterations. For exhaustive searches, use GridSearchCV.
+  warnings.warn(
+C:\Users\rande\AppData\Roaming\Python\Python39\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+
+[00:34:11] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+Elapsed time to compute best fit: 310.182 seconds
+Cross-validation score: 0.043843472555122484
+Test score: 0.04432398436681092
+Best Hyperparameters: {}
+0.005296841
+0.1799126
+0.038732596
+0.01445615
+0.012085615
+0.017269025
+0.03227137
+0.008316269
+0.052099794
+0.0065691187
+0.0035471763
+0.008247852
+0.01990179
+0.0
+0.008833379
+0.0
+0.03818273
+0.0735099
+0.0027025256
+0.005155723
+0.007140027
+0.0023176977
+0.003540679
+0.001472985
+0.0074555594
+0.0
+0.0035514887
+0.020530706
+0.026939042
+0.0061052656
+0.0053407927
+0.0041978983
+0.002459431
+0.0018075091
+0.003389438
+0.0
+0.0
+0.0
+0.0038482486
+0.0057642567
+0.0043860218
+0.0034998052
+0.0029307674
+0.0038166055
+0.003517826
+0.0031431862
+0.0026795561
+0.0
+0.0
+0.0
+0.0028042702
+0.0032655399
+0.0016761278
+0.0
+0.004005539
+0.003674572
+0.005827011
+0.0052294387
+0.0042792633
+0.0030154698
+0.0031577738
+0.004036962
+0.005914583
+0.0044763186
+0.0029685898
+0.0049956236
+0.005842501
+0.010893283
+0.006133985
+0.00829225
+0.0065641818
+0.0
+0.02150754
+0.026311003
+0.004997559
+0.0
+0.006710516
+0.004080406
+0.0043038214
+0.0019797392
+0.0047688563
+0.0026636869
+0.0045054085
+0.0049558063
+0.004971148
+0.0026913674
+0.0045457054
+0.00090283656
+0.0026736716
+0.0029089611
+0.0023108528
+0.009087111
+0.0030647896
+0.005161164
+0.0036319322
+0.0040992578
+0.0038738362
+0.0049631624
+0.007473468
+0.0043183006
+0.005358929
+0.007225731
+0.0029787887
+0.0
+0.0031976127
+0.0059105987
+0.0
+0.0033032098
+0.0033178565
+0.0
+0.009047598
+0.0038005996
+0.0
+0.0067355726
+0.0067060725
+0.0
+0.00765292
+0.0087919645
+0.0
+0.0026080455
+0.006158849
+0.006853309
+0.0029119367
+Legend
+Recall -  measures the fraction of relevant links that are retrieved
+Precision - measures the fraction of retrieved links that are relevant
+F-measure - measures the harmonic mean of recall and precision
+F2-measure - favors recall
+F0.5-measure - favors precision
+Average Precision - summarizes a precision-recall curve as the weighted mean of precisions achieved at each threshold
+
+   Accuracy  Precision    Recall        F1        F2      F0.5  \
+0  0.941904   0.035792  0.953301  0.068994  0.155593  0.044324   
+
+   Average Precision  
+0           0.034226  
+
+--------------------------------------------------------------------
+
+C:\Python39\lib\site-packages\sklearn\model_selection\_search.py:285: UserWarning: The total space of parameters 1 is smaller than n_iter=100. Running 1 iterations. For exhaustive searches, use GridSearchCV.
+  warnings.warn(
+C:\Users\rande\AppData\Roaming\Python\Python39\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+
+[00:40:33] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+Elapsed time to compute best fit: 375.466 seconds
+Cross-validation score: 0.04225942740135332
+Test score: 0.04367353485862607
+Best Hyperparameters: {}
+0.012388142
+0.19027187
+0.041337233
+0.010879534
+0.020763256
+0.017043857
+0.023333324
+0.007290256
+0.0079416055
+0.010665137
+0.006227303
+0.0011466522
+0.01608692
+0.0
+0.028388815
+0.0
+0.006624595
+0.09985783
+0.00273476
+0.029711846
+0.009602269
+0.0010568999
+0.0108423345
+0.0021742356
+0.0052442267
+0.0024663648
+0.014070827
+0.016838819
+0.0031833348
+0.0034929463
+0.00281045
+0.0054143285
+0.0043352544
+0.0028230988
+0.0046114065
+0.0
+0.0
+0.0
+0.0042412467
+0.007955979
+0.004780926
+0.005938444
+0.0036754378
+0.003914578
+0.0054327818
+0.0076175113
+0.0063102785
+0.0
+0.0
+0.0
+0.0055886
+0.0021918067
+0.002786391
+0.013268321
+0.009570142
+0.0
+0.0047603273
+0.005066966
+0.0031187679
+0.0048419903
+0.0032337445
+0.0049571944
+0.0034941281
+0.015721863
+0.0030626226
+0.0016379396
+0.0010662198
+0.0
+0.004491698
+0.018788464
+0.0013408753
+0.003401714
+0.008967524
+0.0047035357
+0.0019599122
+0.0
+0.008692596
+0.0044577406
+0.00628264
+0.0039730873
+0.0018757472
+0.006451341
+0.013812722
+0.004116621
+0.0047890386
+0.004458951
+0.005300088
+0.0
+0.0021700393
+0.011583707
+0.0025541491
+0.005732916
+0.008470907
+0.0040084072
+0.00873553
+0.0023736898
+0.0038117983
+0.0026411477
+0.004927967
+0.0035477015
+0.0021072212
+0.0039562755
+0.006360757
+0.0
+0.0024922045
+0.0050830534
+0.0
+0.0028626001
+0.005091137
+0.0
+0.004503084
+0.005510669
+0.0
+0.004047027
+0.0050063906
+0.0
+0.0022560067
+0.005115329
+0.0
+0.0055438704
+0.007010469
+0.0059347083
+0.002802983
+Legend
+Recall -  measures the fraction of relevant links that are retrieved
+Precision - measures the fraction of retrieved links that are relevant
+F-measure - measures the harmonic mean of recall and precision
+F2-measure - favors recall
+F0.5-measure - favors precision
+Average Precision - summarizes a precision-recall curve as the weighted mean of precisions achieved at each threshold
+
+   Accuracy  Precision    Recall       F1        F2      F0.5  \
+0  0.940322   0.035258  0.964573  0.06803  0.153803  0.043674   
+
+   Average Precision  
+0           0.034089  
+
+--------------------------------------------------------------------
+
+C:\Python39\lib\site-packages\sklearn\model_selection\_search.py:285: UserWarning: The total space of parameters 1 is smaller than n_iter=100. Running 1 iterations. For exhaustive searches, use GridSearchCV.
+  warnings.warn(
+C:\Users\rande\AppData\Roaming\Python\Python39\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+
+[00:48:11] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+Elapsed time to compute best fit: 454.288 seconds
+Cross-validation score: 0.042883779258751684
+Test score: 0.04326776732522576
+Best Hyperparameters: {}
+0.007827345
+0.22117406
+0.036437564
+0.0100290505
+0.01412956
+0.012727332
+0.025712563
+0.015375869
+0.004646455
+0.016733535
+0.00552234
+0.02061545
+0.017587245
+0.0
+0.015015347
+0.0
+0.033083763
+0.02356361
+0.0061575216
+0.010379317
+0.0031572757
+0.006677951
+0.0070401216
+0.0043364028
+0.0057789674
+0.0
+0.005486918
+0.05049469
+0.03486903
+0.0018102048
+0.0018388368
+0.0012676794
+0.0027620478
+0.0017944126
+0.0055566733
+0.0
+0.0
+0.0
+0.004240837
+0.009250365
+0.0045716628
+0.0057908767
+0.0037353176
+0.004421579
+0.004120438
+0.005003648
+0.0044773617
+0.0
+0.0
+0.0
+0.0032732787
+0.0023925263
+0.0021274614
+0.0034353847
+0.0003702271
+0.00080952875
+0.014651842
+0.0052861585
+0.0031347035
+0.0050041433
+0.0041081016
+0.0046251356
+0.003096357
+0.0033474609
+0.0069500953
+0.0057102665
+0.0020566883
+0.007851269
+0.004040469
+0.013011306
+0.0030365768
+0.002303731
+0.018079815
+0.0025519188
+0.0018669575
+0.004431531
+0.003056495
+0.004326823
+0.0034511527
+0.0012371069
+0.0028450321
+0.0023605896
+0.004375048
+0.0039732107
+0.005524575
+0.006647507
+0.0042532645
+0.0022011143
+0.006130559
+0.0016211581
+0.004437719
+0.019995201
+0.0078069316
+0.0029612363
+0.0028951084
+0.0019730867
+0.003400884
+0.0052892985
+0.0049459487
+0.0038543546
+0.006781233
+0.007933441
+0.0022711968
+0.0
+0.0027163036
+0.013759243
+0.0
+0.0028645382
+0.0037740553
+0.0
+0.008525802
+0.003114322
+0.0
+0.0063550333
+0.0047288127
+0.0
+0.0015311526
+0.0042926148
+0.0
+0.004204272
+0.0024757073
+0.006034961
+0.006319746
+Legend
+Recall -  measures the fraction of relevant links that are retrieved
+Precision - measures the fraction of retrieved links that are relevant
+F-measure - measures the harmonic mean of recall and precision
+F2-measure - favors recall
+F0.5-measure - favors precision
+Average Precision - summarizes a precision-recall curve as the weighted mean of precisions achieved at each threshold
+
+   Accuracy  Precision    Recall        F1        F2      F0.5  \
+0  0.939933   0.034929  0.961353  0.067408  0.152483  0.043268   
+
+   Average Precision  
+0           0.033666  
+
+--------------------------------------------------------------------
+
+C:\Python39\lib\site-packages\sklearn\model_selection\_search.py:285: UserWarning: The total space of parameters 1 is smaller than n_iter=100. Running 1 iterations. For exhaustive searches, use GridSearchCV.
+  warnings.warn(
+C:\Users\rande\AppData\Roaming\Python\Python39\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+
+[00:56:39] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+Elapsed time to compute best fit: 501.917 seconds
+Cross-validation score: 0.04171344264015213
+Test score: 0.04367693483055368
+Best Hyperparameters: {}
+0.0065851617
+0.19310032
+0.031861432
+0.0062977048
+0.028323054
+0.011703236
+0.034237225
+0.012706488
+0.005917533
+0.0043779653
+0.004301317
+0.0045884256
+0.013286656
+0.0
+0.017767066
+0.0
+0.044020806
+0.040734563
+0.0
+0.0094221765
+0.009859642
+0.0026143845
+0.005102184
+0.0027888557
+0.0018975215
+0.0
+0.00775297
+0.048590045
+0.024882669
+0.005778055
+0.0066262777
+0.0026638045
+0.0033354803
+0.0021948735
+0.011115893
+0.0
+0.0
+0.0
+0.005966944
+0.005005548
+0.006058506
+0.0064271805
+0.00091540185
+0.006482041
+0.0050604944
+0.0018620209
+0.010938319
+0.0
+0.0
+0.0
+0.002825692
+0.0038965284
+0.0020307237
+0.011514842
+0.0020830622
+0.0030611379
+0.004809418
+0.008061809
+0.002378337
+0.005480159
+0.005311806
+0.003061316
+0.013882943
+0.007406702
+0.0048919786
+0.0020506612
+0.0069781123
+0.0035702845
+0.003652909
+0.005954979
+0.0028352598
+0.0020078395
+0.02165346
+0.0052818
+0.0019206825
+0.0
+0.00464357
+0.0037714676
+0.003242768
+0.0026157151
+0.004247489
+0.0029559396
+0.0071748695
+0.006119974
+0.004294934
+0.003661753
+0.003003054
+0.010667103
+0.0037685041
+0.012151574
+0.0019140029
+0.0016580889
+0.0047172676
+0.0037085179
+0.003958501
+0.008468421
+0.0056566945
+0.0015414795
+0.003017228
+0.004969523
+0.00465508
+0.005724148
+0.0021256001
+0.0
+0.0033564947
+0.00813629
+0.0
+0.006115369
+0.012219983
+0.0
+0.0028492832
+0.0030728288
+0.0
+0.005104704
+0.0059487903
+0.0
+0.0054329615
+0.006762955
+0.0
+0.010209579
+0.009736266
+0.004229431
+0.0026391288
+Legend
+Recall -  measures the fraction of relevant links that are retrieved
+Precision - measures the fraction of retrieved links that are relevant
+F-measure - measures the harmonic mean of recall and precision
+F2-measure - favors recall
+F0.5-measure - favors precision
+Average Precision - summarizes a precision-recall curve as the weighted mean of precisions achieved at each threshold
+
+   Accuracy  Precision    Recall        F1        F2      F0.5  \
+0  0.939649   0.035257  0.975845  0.068055  0.154026  0.043677   
+
+   Average Precision  
+0            0.03446  
+
+--------------------------------------------------------------------
+
+C:\Python39\lib\site-packages\sklearn\model_selection\_search.py:285: UserWarning: The total space of parameters 1 is smaller than n_iter=100. Running 1 iterations. For exhaustive searches, use GridSearchCV.
+  warnings.warn(
+C:\Users\rande\AppData\Roaming\Python\Python39\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+
+[01:04:38] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+Elapsed time to compute best fit: 472.785 seconds
+Cross-validation score: 0.043396022333630165
+Test score: 0.04356758804586982
+Best Hyperparameters: {}
+0.0076941904
+0.20411949
+0.018632336
+0.010237037
+0.01470937
+0.0051281047
+0.045999903
+0.008728827
+0.0007467397
+0.011867363
+0.0032097492
+0.004395496
+0.01488851
+0.0
+0.026226424
+0.0
+0.08864026
+0.052402087
+0.0048348014
+0.0045099054
+0.009151127
+0.01282073
+0.012694633
+0.0046060737
+0.004368792
+0.0026358936
+0.007881763
+0.025221877
+0.023707893
+0.0034832475
+0.0063926447
+0.0053013796
+0.003066423
+0.0036816653
+0.0030729834
+0.0
+0.0
+0.0
+0.0038736085
+0.002908922
+0.0049850256
+0.0028868332
+0.005573331
+0.0042898958
+0.0031208459
+0.0003686749
+0.003126822
+0.0
+0.0
+0.0
+0.0036600616
+0.004084343
+0.0016503388
+0.0054734442
+0.0014561822
+0.0077592563
+0.004708816
+0.004164074
+0.004393907
+0.0036214683
+0.002868516
+0.0058991965
+0.011565264
+0.0042407163
+0.006164808
+0.002348884
+0.004416246
+0.010787135
+0.0048005325
+0.004222151
+0.0054617836
+0.0
+0.02296276
+0.0039873943
+0.004022455
+0.0
+0.0025105437
+0.0061797197
+0.004259367
+0.002843583
+0.0022661332
+0.007282087
+0.003158244
+0.0054107066
+0.004200983
+0.004053865
+0.0024879198
+0.010214907
+0.0038784586
+0.005017456
+0.007929442
+0.00907354
+0.004789077
+0.0036264493
+0.007362785
+0.0014057263
+0.0044729128
+0.0044951756
+0.0066948356
+0.004740401
+0.005062447
+0.000664939
+0.0039487984
+0.0
+0.0030926631
+0.0045007654
+0.0
+0.0017318064
+0.0022063756
+0.0
+0.005836852
+0.0049015447
+0.0
+0.0021154918
+0.0048462283
+0.0
+0.0050530564
+0.0035683908
+0.0
+0.0029469267
+0.003640601
+0.0021469267
+0.00447058
+Legend
+Recall -  measures the fraction of relevant links that are retrieved
+Precision - measures the fraction of retrieved links that are relevant
+F-measure - measures the harmonic mean of recall and precision
+F2-measure - favors recall
+F0.5-measure - favors precision
+Average Precision - summarizes a precision-recall curve as the weighted mean of precisions achieved at each threshold
+
+   Accuracy  Precision    Recall        F1        F2      F0.5  \
+0  0.940267   0.035172  0.962963  0.067866  0.153443  0.043568   
+
+   Average Precision  
+0           0.033953  
+
+--------------------------------------------------------------------
+
+C:\Python39\lib\site-packages\sklearn\metrics\_plot\precision_recall_curve.py:125: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig, ax = plt.subplots()
+C:\Python39\lib\site-packages\sklearn\model_selection\_search.py:285: UserWarning: The total space of parameters 1 is smaller than n_iter=100. Running 1 iterations. For exhaustive searches, use GridSearchCV.
+  warnings.warn(
+C:\Users\rande\AppData\Roaming\Python\Python39\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+
+[01:12:15] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+Elapsed time to compute best fit: 452.350 seconds
+Cross-validation score: 0.041385434619985895
+Test score: 0.043769198598231925
+Best Hyperparameters: {}
+0.008343113
+0.20951833
+0.026626047
+0.023070656
+0.01337714
+0.0069059464
+0.03052826
+0.0049931617
+0.0
+0.012900735
+0.00490492
+0.0077333436
+0.015341698
+0.0
+0.0074976347
+0.0
+0.056660414
+0.005723478
+0.029580683
+0.01036469
+0.003386863
+0.0044424334
+0.0032115686
+0.009636631
+0.0034760828
+0.027319048
+0.007141038
+0.043322027
+0.026750222
+0.0045979638
+0.0055660447
+0.0031394153
+0.00479252
+0.0018463394
+0.0065511675
+0.0
+0.0
+0.0
+0.0061394554
+0.023128692
+0.002863632
+0.0034231476
+0.0036967325
+0.0049571837
+0.004432753
+0.007986206
+0.0024668854
+0.0
+0.0
+0.0
+0.0022338473
+0.00514672
+0.0031677946
+0.0
+0.0023966026
+0.003126822
+0.0065111914
+0.0066378787
+0.0037111198
+0.008138216
+0.0056014317
+0.0046000136
+0.0035356774
+0.0030225818
+0.002238879
+0.0047836355
+0.0013750042
+0.004931659
+0.0066481684
+0.004593579
+0.0035954036
+0.0020926748
+0.023763433
+0.010133491
+0.0040150406
+0.0
+0.0073235026
+0.0034076911
+0.0043656626
+0.0018369695
+0.0032364817
+0.007864579
+0.006882325
+0.0076846546
+0.006335071
+0.002377343
+0.003709633
+0.0010224114
+0.0052437778
+0.004266285
+0.002619899
+0.005147158
+0.010696212
+0.0036635569
+0.0033459428
+0.0017464085
+0.003083393
+0.006278513
+0.005310835
+0.0034036061
+0.0049764886
+0.0062169367
+0.0021909934
+0.0
+0.0045829047
+0.0045179147
+0.0
+0.0
+0.0061764154
+0.0
+0.0037810043
+0.007152041
+0.0
+0.0049490863
+0.005895628
+0.0
+0.0071490905
+0.0058996677
+0.0
+0.0030964722
+0.0021378717
+0.003593583
+0.0024867137
+Legend
+Recall -  measures the fraction of relevant links that are retrieved
+Precision - measures the fraction of retrieved links that are relevant
+F-measure - measures the harmonic mean of recall and precision
+F2-measure - favors recall
+F0.5-measure - favors precision
+Average Precision - summarizes a precision-recall curve as the weighted mean of precisions achieved at each threshold
+
+   Accuracy  Precision    Recall        F1        F2      F0.5  \
+0  0.939686   0.035332  0.977456  0.068198  0.154343  0.043769   
+
+   Average Precision  
+0           0.034586  
+
+--------------------------------------------------------------------
+
+C:\Python39\lib\site-packages\sklearn\model_selection\_search.py:285: UserWarning: The total space of parameters 1 is smaller than n_iter=100. Running 1 iterations. For exhaustive searches, use GridSearchCV.
+  warnings.warn(
+C:\Users\rande\AppData\Roaming\Python\Python39\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+
+[01:13:48] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+Elapsed time to compute best fit: 85.789 seconds
+Cross-validation score: 0.0424250841013312
+Test score: 0.044378918524475425
+Best Hyperparameters: {}
+0.0071353866
+0.18619053
+0.018765738
+0.00884801
+0.021835422
+0.029791549
+0.03192116
+0.011929024
+0.021170486
+0.015468923
+0.0016947099
+0.0034563553
+0.019761046
+0.0
+0.0056134844
+0.0
+0.005873825
+0.031631257
+0.103288695
+0.02780845
+0.002913195
+0.0025415183
+0.008578172
+0.00030136624
+0.0016381877
+0.019330448
+0.0028152517
+0.035532862
+0.01426832
+0.006662192
+0.00015835457
+0.007097084
+0.0040946817
+0.0011412116
+0.0018443908
+0.0
+0.0
+0.0
+0.004100921
+0.0027973377
+0.0043582045
+0.0065327045
+0.003295356
+0.0038371163
+0.0038968427
+0.0035407892
+0.007190819
+0.0
+0.0
+0.0
+0.0021658905
+0.003468511
+0.0022890442
+0.0036373017
+0.0018238708
+0.004084981
+0.0036960815
+0.0041104225
+0.00412368
+0.0060742265
+0.0042353976
+0.0033152772
+0.007697428
+0.0021675802
+0.0034963705
+0.0021053937
+0.0019642697
+0.0
+0.005079565
+0.0047527794
+0.0044096736
+0.0
+0.0245321
+0.002968197
+0.005168867
+0.015237883
+0.004222387
+0.006472856
+0.0068656327
+0.0046164123
+0.0058377115
+0.0057095
+0.0034912527
+0.002923281
+0.0024953543
+0.0031027475
+0.004886075
+0.0024631561
+0.004347204
+0.011403291
+0.0015504165
+0.0050608744
+0.00732872
+0.0035863437
+0.0026565013
+0.0024330362
+0.0043138624
+0.0029036903
+0.0064274385
+0.0041685905
+0.0062572425
+0.0025266202
+0.0032639378
+0.0
+0.007231107
+0.0076050786
+0.0
+0.0016750448
+0.0040840274
+0.0
+0.0022681362
+0.005148431
+0.0
+0.006154086
+0.005110436
+0.0
+0.0009330204
+0.002838727
+0.0
+0.004732896
+0.0028508396
+0.0026476264
+0.0021503484
+Legend
+Recall -  measures the fraction of relevant links that are retrieved
+Precision - measures the fraction of retrieved links that are relevant
+F-measure - measures the harmonic mean of recall and precision
+F2-measure - favors recall
+F0.5-measure - favors precision
+Average Precision - summarizes a precision-recall curve as the weighted mean of precisions achieved at each threshold
+
+   Accuracy  Precision    Recall        F1       F2      F0.5  \
+0  0.941598   0.035835  0.959742  0.069089  0.15589  0.044379   
+
+   Average Precision  
+0           0.034483  
+
+--------------------------------------------------------------------
+
+C:\Python39\lib\site-packages\sklearn\model_selection\_search.py:285: UserWarning: The total space of parameters 1 is smaller than n_iter=100. Running 1 iterations. For exhaustive searches, use GridSearchCV.
+  warnings.warn(
+C:\Users\rande\AppData\Roaming\Python\Python39\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+
+[01:19:14] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+Elapsed time to compute best fit: 318.721 seconds
+Cross-validation score: 0.04281068555884622
+Test score: 0.044963354865784386
+Best Hyperparameters: {}
+0.010657262
+0.1970621
+0.027864657
+0.008307691
+0.013564544
+0.014701802
+0.050074976
+0.0077089276
+0.011630681
+0.021349072
+0.003237475
+0.010253051
+0.007676766
+0.0
+0.021627106
+0.0
+0.008793419
+0.060919847
+0.012975942
+0.019406391
+0.0030864778
+0.009846076
+0.014643946
+0.0
+0.011150637
+0.0
+0.006998756
+0.013773313
+0.030999599
+0.008822625
+0.0038993042
+0.0036107786
+0.003358331
+0.00153104
+0.004482105
+0.0
+0.0
+0.0
+0.00935342
+0.0060363994
+0.0048745554
+0.005871486
+0.003341283
+0.0048184604
+0.006105028
+0.0006560364
+0.004931474
+0.0
+0.0
+0.0
+0.002458384
+0.00212732
+0.0018205185
+0.003510295
+0.001823591
+0.002840494
+0.0075856787
+0.008963667
+0.0034791182
+0.0068042153
+0.005966661
+0.0072470815
+0.005412876
+0.013223269
+0.002350589
+0.005114185
+0.010959557
+0.0
+0.0049074767
+0.018166704
+0.00085281767
+0.0014160067
+0.02191813
+0.006699546
+0.0026258808
+0.001282481
+0.0
+0.0047058775
+0.008883111
+0.0038362946
+0.005798632
+0.00451159
+0.0030946417
+0.0028520052
+0.0035671068
+0.0065182224
+0.0037723305
+0.0011817871
+0.006206801
+0.004940705
+0.0027102006
+0.00045666227
+0.0032069308
+0.0053572417
+0.0023461082
+0.009397063
+0.0028924716
+0.0014113489
+0.0075614895
+0.0053621433
+0.0027082849
+0.0062620635
+0.0035126198
+0.0
+0.0041260715
+0.007188517
+0.0
+0.0033715754
+0.009200939
+0.0
+0.0037791473
+0.005026654
+0.0
+0.006225607
+0.0064265584
+0.0
+0.0025022966
+0.0039818385
+0.0
+0.005940038
+0.0016065127
+0.0043962006
+0.0036148462
+Legend
+Recall -  measures the fraction of relevant links that are retrieved
+Precision - measures the fraction of retrieved links that are relevant
+F-measure - measures the harmonic mean of recall and precision
+F2-measure - favors recall
+F0.5-measure - favors precision
+Average Precision - summarizes a precision-recall curve as the weighted mean of precisions achieved at each threshold
+
+   Accuracy  Precision    Recall        F1       F2      F0.5  \
+0  0.942016   0.036309  0.966184  0.069987  0.15782  0.044963   
+
+   Average Precision  
+0           0.035157  
