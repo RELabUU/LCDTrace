@@ -4,10 +4,11 @@ def createCorpusFromDocumentList(token_column):
     corpus_list = []
     
     for document in token_list:
-        #Transform list to a string for SKLEARN to accept the input.
-        token_string = ' '.join(document)
+        #Only join to the string when a list. When it is not a list, then it is np.NaN, thus no changes
+        if(isinstance(document, list)):
+            #Transform list to a string for SKLEARN to accept the input.
+            token_string = ' '.join(document)
         
-        #Add string to the corpus list
-        corpus_list.append(token_string)
-    
+            #Add string to the corpus list
+            corpus_list.append(token_string)
     return(corpus_list)

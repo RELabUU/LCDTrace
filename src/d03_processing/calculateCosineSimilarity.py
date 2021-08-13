@@ -1,18 +1,7 @@
-from sklearn.feature_extraction.text import TfidfTransformer 
-from sklearn.feature_extraction.text import CountVectorizer 
 from scipy import spatial
 import pandas as pd
 
-
-def calc_vector_representation(document, corpus):
-    #instantiate CountVectorizer() 
-    cv = CountVectorizer()
-    
-    # Generate the word counts for the corpus
-    word_count_vector = cv.fit_transform(corpus)
-    tfidf_transformer = TfidfTransformer(smooth_idf = True, use_idf = True) 
-    tfidf_transformer.fit(word_count_vector)
-    
+def calc_vector_representation(document, cv, fittedTF_IDF):        
     #Transform document type to a string
     documentString = document
     
@@ -23,7 +12,7 @@ def calc_vector_representation(document, corpus):
     count_vector = cv.transform(inputDocs) 
  
     #tf-idf scores 
-    tf_idf_vector = tfidf_transformer.transform(count_vector)
+    tf_idf_vector = fittedTF_IDF.transform(count_vector)
 
     feature_names = cv.get_feature_names() 
  
@@ -38,13 +27,32 @@ def calc_vector_representation(document, corpus):
 
     return(document_vector.T.todense())
 
-def calculateCosineSimilarity(document1, document2, corpus):
-    #Transform document to string type
-    document1String = ' '.join(document1)
-    document2String = ' '.join(document2)
+def calculateCosineSimilarity(document1, document2, cv, fittedTF_IDF):
 
-    vector1 = calc_vector_representation(document1String, corpus)
-    vector2 = calc_vector_representation(document2String, corpus)
+    #If both doc1 and doc2 are lists
+    if (isinstance(document1, list) & isinstance(document2, list)):
+        #Transform document to string type
+        document1String = ' '.join(document1)
+        document2String = ' '.join(document2)
+
+    #Only document1 is a list
+    elif(isinstance(document1, list)):
+        #Transform document to string type
+        document1String = ' '.join(document1)
+        document2String = ''
+
+    #Only document2 is a list
+    elif(isinstance(document2, list)):
+        #Transform document to string type
+        document1String = ''
+        document2String = ' '.join(document2)
+        
+    else:
+        document1String = ''
+        document2String = ''
+
+    vector1 = calc_vector_representation(document1String, cv, fittedTF_IDF)
+    vector2 = calc_vector_representation(document2String, cv, fittedTF_IDF)
     
     #The cosine similarity. Produces NaN if no terms are found in the corpus.
     result = 1 - spatial.distance.cosine(vector1, vector2)

@@ -5,7 +5,7 @@ import pandas as pd
 
 
 def loadCommits(path):
-    rawData_SVN_dataProcessing = open(path,"r")
+    rawData_SVN_dataProcessing = open(path,"r", encoding="utf8")
     commit_processing_text = rawData_SVN_dataProcessing.read().strip()
 
     #Find every individual revision
@@ -51,9 +51,13 @@ def loadCommits(path):
         log_list.append(log_string)
     
         #Extract the issue key from the logs
-        jira_issue = re.findall(r"LRN+.[0-9]+|AFM+.[0-9]+|MA+.[0-9]+", log_string)
+        jira_issue = re.findall(r"LRN+.[0-9]+|AFM+.[0-9]+|MA+.[0-9]+|AFI+.[0-9]+|EM+.[0-9]+|OE+.[0-9]+|EM+.[0-9]+", log_string)
         if (jira_issue):
-            related_issue_key_list.append(jira_issue)
+            cleaned_issues = []
+            for item in jira_issue:
+                cleaned_item = item.replace(" ", "-")
+                cleaned_issues.append(cleaned_item)
+            related_issue_key_list.append(cleaned_issues)
         if not (jira_issue):
             related_issue_key_list.append(np.NaN)
     
