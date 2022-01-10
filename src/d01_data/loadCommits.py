@@ -50,7 +50,7 @@ def loadCommits(path):
         log_string = ''.join(log)
         log_list.append(log_string)
     
-        #Extract the issue key from the logs
+        #Extract the issue key from the logs from the projects LRN, AFM, MA, AFI, EM, OE, and EM
         jira_issue = re.findall(r"LRN+.[0-9]+|AFM+.[0-9]+|MA+.[0-9]+|AFI+.[0-9]+|EM+.[0-9]+|OE+.[0-9]+|EM+.[0-9]+", log_string)
         if (jira_issue):
             cleaned_issues = []
