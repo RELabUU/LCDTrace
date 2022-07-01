@@ -69,7 +69,7 @@ def preprocessCommitDate(date_string):
     
 #Remove the found Issue key from the log
 def removeIssueKey(log_message):
-    issue_keys = re.findall(r"LRN+.[0-9]+|AFM+.[0-9]+|MA+.[0-9]+|AFI+.[0-9]+|EM+.[0-9]+|OE+.[0-9]+|EM+.[0-9]+", log_message)
+    issue_keys = re.findall(r"LRN+.[0-9]+|AFM+.[0-9]+|MA+.[0-9]+|AFI+.[0-9]+|EM+.[0-9]+|OE+.[0-9]+|EM+.[0-9]+|CEN+.[0-9]+", log_message)
     log_message_without_key = log_message
     for issue_key in issue_keys:
         log_message_without_key = log_message_without_key.replace(issue_key, "")
