@@ -14,7 +14,7 @@ def calc_vector_representation(document, cv, fittedTF_IDF):
     #tf-idf scores 
     tf_idf_vector = fittedTF_IDF.transform(count_vector)
 
-    feature_names = cv.get_feature_names() 
+    feature_names = cv.get_feature_names_out() 
  
     #get tfidf vector for first document 
     document_vector=tf_idf_vector[0] 

@@ -97,7 +97,7 @@ def define_steps(rebalancing_strategy, classification_algorithm):
     return steps
 
 #Method to generate the f1, f2, f0.5, accuracy, precision, recall, and average precision
-def generate_evaluation_metrics(rebalancing_strategy, classification_algorithm, data, labels, is_normalized, n_runs, feature_names):
+def generate_evaluation_metrics(rebalancing_strategy, classification_algorithm, data, labels, is_normalized, n_runs, feature_names, n_features):
     #Create a dataframe to append to the results of each individual run
     evaluation_df = pd.DataFrame(
     {
@@ -111,7 +111,7 @@ def generate_evaluation_metrics(rebalancing_strategy, classification_algorithm, 
     })
     
     #Create a np array to put the importances per feature in
-    importance_array = np.empty(shape=(n_runs, 131))
+    importance_array = np.empty(shape=(n_runs, n_features))
     
     #Perform the described pipeline steps to produce the results for the defined number of runs
     for i in range(n_runs):
@@ -155,7 +155,6 @@ def generate_evaluation_metrics(rebalancing_strategy, classification_algorithm, 
         else:
             current_importances = fitted_model.best_estimator_._final_estimator.feature_importances_
         #Add the feature importances of the current fitted model to the results of the previous runs
-
         importance_array[i] = current_importances  
     
     if is_normalized == True:
