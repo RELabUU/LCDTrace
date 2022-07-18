@@ -170,6 +170,7 @@ def generate_evaluation_metrics(rebalancing_strategy, classification_algorithm, 
     #Output the evaluation data to a csv file
     evaluation_df.to_csv("../results/" + dir_string + "/" + classification_algorithm + "/" + rebalancing_strategy + "_results.csv")
     
+    
     #Transform the importance array to a data frame
     importance_df = pd.DataFrame(data=importance_array, 
                                  columns= feature_names, 
@@ -180,3 +181,5 @@ def generate_evaluation_metrics(rebalancing_strategy, classification_algorithm, 
     
     #Output the importance data to a csv file
     importance_df.to_csv("../results/4. Feature Importance Results/" + classification_algorithm + "/" + rebalancing_strategy + "_results.csv")
+
+    return evaluation_df, importance_df
