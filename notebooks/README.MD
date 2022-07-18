@@ -10,7 +10,9 @@ pip install mrmr_selection
 
 
 ## Use of the notebook
-The notebook is currently set up to run a single dataset (non-normalised) and put it three times through the MRMR algorithm, being for K=40, K=50 and K=60. For each one, it performs the feature selection for that specifc K-value, followed by the evaluation.py script and finally it processes the results form that to get the averages of the evaluation run. 
+The notebook is currently set up to run a single dataset (non-normalised) and put it three times through the MRMR algorithm, being for K=40, K=50 and K=60. For each one, it performs the feature selection for that specifc K-value, followed by the evaluation.py script and finally it processes the results form that to get the averages of the evaluation run. Before running the notebook, make sure to:
+1. Place the excel file of the non-normalised dataset in the results/1. Trace Link Feature Data folder
+2. Place the pkl file of the linked labels_df in the data/03_processed folder
 
 ## Parameters to configure
 Before running the notebook, three parameter can/should be adjusted, being:
