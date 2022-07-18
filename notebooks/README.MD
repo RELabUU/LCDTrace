@@ -28,3 +28,5 @@ Besides the files listed above for each K-value, the notebook delivers for all p
 1. An excel file with the F-scores (averaged evaluation runs with n=10) for all K-values
 2. An excel file with the top-10 based on the feature importances
 
+# Upcoming
+Notebook must receive an update for the (possible) next step, which is running more specific K-values after the first analysis on the K=40, K=50 and K=60. This could be simply adjusting the K-values as they are currently encoded
