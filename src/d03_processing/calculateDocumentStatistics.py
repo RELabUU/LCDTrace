@@ -28,7 +28,10 @@ def calculateOverlapBetweenDocuments(termList1, termList2, comparisonList):
             percentageOverlap = float(len(overlap)) / len(set1) * 100
         #Compare the overlap to list2
         elif(comparisonList == 'list2'):
-            percentageOverlap = float(len(overlap)) / len(set2) * 100
+            if (len(set2)>0):
+                percentageOverlap = float(len(overlap)) / len(set2) * 100
+            else:
+                percentageOverlap = float(0)
         elif(comparisonList == 'union'):
             percentageOverlap = float(len(overlap)) / len(union) * 100
         return(percentageOverlap)
