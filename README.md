@@ -1,4 +1,7 @@
-# About
+# LCDTrace
+**Keywords:** Requirements Traceability - Trace Link Recovery - Model-Driven Development - Low-Code Development - Machine Learning
+
+## About
 This repository provides the code used to produce the results of Rasiman, Dalpiaz & España (2022). It takes a set of JIRA issues, and SVN commits as input. The program then cleans and preprocesses these. The JIRA id (label) is then taken from the SVN commit logs and appended to the commit data using REGEX. The Cartesian product of the JIRA issues and SVN commits is then produced, with each element being a candidate trace. For each candidate trace, a set of features is computed. These features are then utilized as input data for 12 different models (classification algorithm x rebalancing strategy). Finally, these models are evaluated.
 
 **Input:**
@@ -99,3 +102,6 @@ For non-MDD specific features, the following steps shall be taken:
 For automated feature selection, the following steps shall be taken:
 1. Navigate to ```notebooks``` and execetute ```feature_selection.ipynb```.
 2. In the second cell block it is possible to set a number of evaluation rounds (default=2) and a project name that is run.
+
+# Publication
+Rasiman, R.S., Dalpiaz, F., & España, S. (2022). How Effective Is Automated Trace Link Recovery in Model-Driven Development? In *International Working Conference on Requirements Engineering: Foundation for Software Quality*. Springer, Nature.
