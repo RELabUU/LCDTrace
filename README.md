@@ -14,7 +14,7 @@ The project follows the structure laid out by [Data Science for Social Good](htt
 │   │   4. Feature Importance Results               <- Evaluation output for feature importances for the datasets used in this research 
 │   │   RQ1_F-metrics.xlsx                          <- File that presents aggregated results from non-normalized results
 │   └── RQ1_Feature_Importance.xlsx                 <- File that presents aggregated results from feature importance results
-├── RQ2                                         <- The evaluation results produced by the notebook
+├── RQ2                                             <- The evaluation results produced by the notebook
 │   ├── 1.Trace Link Feature Data                   <- Populated feature files for the datasets used in this research
 │   │   2. Non-normalised Results                   <- Evaluation output for non-normalised features for the datasets used in this research
 │   │   4. Feature Importance Results               <- Evaluation output for feature importances for the datasets used in this research 
