@@ -1,8 +1,5 @@
-# LCDTrace
-**Keywords:** Requirements Traceability - Trace Link Recovery - Model-Driven Development - Low-Code Development - Machine Learning
-
-## About
-This repository provides the code used to produce the results of Rasiman, Dalpiaz & España (2022). It takes a set of JIRA issues, and SVN commits as input. The program then cleans and preprocesses these. The JIRA id (label) is then taken from the SVN commit logs and appended to the commit data using REGEX. The Cartesian product of the JIRA issues and SVN commits is then produced, with each element being a candidate trace. For each candidate trace, a set of features is computed. These features are then utilized as input data for 12 different models (classification algorithm x rebalancing strategy). Finally, these models are evaluated.
+# About
+This repository provides the code used to produce the results of Van Oosten, Rasiman & Dalpiaz (2022). It takes a set of JIRA issues, and SVN commits as input. The program then cleans and preprocesses these. The JIRA id (label) is then taken from the SVN commit logs and appended to the commit data using REGEX. The Cartesian product of the JIRA issues and SVN commits is then produced, with each element being a candidate trace. For each candidate trace, a set of features is computed. These features are then utilized as input data for 12 different models (classification algorithm x rebalancing strategy). Finally, these models are evaluated. This is then followed by a similar approach for non-MDD specific features and feature subsets (by an automated feature selection algorithm).
 
 **Input:**
 * JIRA Issues (.cvs .xlsx)
@@ -21,6 +18,7 @@ This repository provides the code used to produce the results of Rasiman, Dalpia
 * [SciPy](https://scipy.org/) (>=  1.6.2)
 * [NLTK](https://www.nltk.org/) (>=  3.5)
 * [Scikit-Learn](https://scikit-learn.org) (>=  0.24.1)
+* [Skikit-posthocs] (https://github.com/maximtrp/scikit-posthocs) (>= 0.7.0)
 * [mrmr_selection](https://github.com/smazzanti/mrmr) (>=0.2.5)
 
 # Directory Structure
@@ -38,7 +36,8 @@ The project follows the structure laid out by [Data Science for Social Good](htt
 │   │   evaluation_notebook.ipynb                   <- Notebook to evaluate trace classification models
 │   │   feature_selection.ipynb                     <- Notebook to apply feature selection for three subset sizes
 │   └── results processing
-│       ├── calculating_feature_importance.ipynb    <- Notebook to calculate feature importance (families) and create boxplots 
+│       ├── calculating_feature_importance.ipynb    <- Notebook to calculate feature importance (families) and create boxplots
+│       ├── Friedman-Nemenyi.ipynb                  <- Notebook to perform the statistical tests
 │       └── process_results.ipynb                   <- Notebook to process the raw results 
 ├── results                                         <- The evaluation results produced by the notebook
 │   ├── 01_Trace link Feature Data                  <- Example of populated feature files
@@ -102,6 +101,3 @@ For non-MDD specific features, the following steps shall be taken:
 For automated feature selection, the following steps shall be taken:
 1. Navigate to ```notebooks``` and execetute ```feature_selection.ipynb```.
 2. In the second cell block it is possible to set a number of evaluation rounds (default=2) and a project name that is run.
-
-# Publication
-Rasiman, R.S., Dalpiaz, F., & España, S. (2022). How Effective Is Automated Trace Link Recovery in Model-Driven Development? In *International Working Conference on Requirements Engineering: Foundation for Software Quality*. Springer, Nature.
