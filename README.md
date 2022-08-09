@@ -18,7 +18,7 @@ This repository provides the code used to produce the results of Van Oosten, Ras
 * [SciPy](https://scipy.org/) (>=  1.6.2)
 * [NLTK](https://www.nltk.org/) (>=  3.5)
 * [Scikit-Learn](https://scikit-learn.org) (>=  0.24.1)
-* [Skikit-posthocs] (https://github.com/maximtrp/scikit-posthocs) (>= 0.7.0)
+* [Skikit-posthocs](https://github.com/maximtrp/scikit-posthocs) (>= 0.7.0)
 * [mrmr_selection](https://github.com/smazzanti/mrmr) (>=0.2.5)
 
 # Directory Structure
