@@ -38,7 +38,7 @@ It takes a set of JIRA issues and a set of SVN commits as input. The program the
 │   │   evaluation_notebook.ipynb                   <- Notebook to evaluate trace classification models
 │   │   feature_selection.ipynb                     <- Notebook to apply feature selection for three subset sizes
 │   └── results processing
-│       ├── calculating_feature_importance.ipynb    <- Notebook to calculate feature importance (families) and create boxplots (e.g., Figure 4 in the paper)
+│       ├── calculating_feature_importance.ipynb    <- Notebook to calculate feature importance (families) and create boxplots (e.g., Figure 3 in the paper)
 │       ├── Friedman-Nemenyi.ipynb                  <- Notebook to perform the statistical tests
 │       └── process_results.ipynb                   <- Notebook to process the raw results that returns dataset-grouped results
 ├── results                                         <- The evaluation results produced by the notebook
