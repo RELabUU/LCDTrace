@@ -1,17 +1,17 @@
-# LCDTrace
-**Keywords:** Requirements Traceability - Trace Link Recovery - Model-Driven Development - Low-Code Development - Machine Learning
+# About
 
-## About
-This repository provides the code used to produce the results of Rasiman, Dalpiaz & España (2022). It takes a set of JIRA issues, and SVN commits as input. The program then cleans and preprocesses these. The JIRA id (label) is then taken from the SVN commit logs and appended to the commit data using REGEX. The Cartesian product of the JIRA issues and SVN commits is then produced, with each element being a candidate trace. For each candidate trace, a set of features is computed. These features are then utilized as input data for 12 different models (classification algorithm x rebalancing strategy). Finally, these models are evaluated.
+
+This repository provides the code used to produce the results of Van Oosten, Rasiman, Dalpiaz & Hurkmans (2022). 
+
+It takes a set of JIRA issues and a set of SVN commits as input. The program then cleans and preprocesses these. The JIRA identifier (label) is then taken from the SVN commit logs and appended to the commit data using REGEX. The Cartesian product of the JIRA issues and SVN commits is then produced, with each element being a candidate trace. For each candidate trace, a set of features is computed. These features are then utilized as input data for 12 different models (classification algorithm x rebalancing strategy). Finally, these models are evaluated. This is then followed by a similar approach for non-MDD specific features and feature subsets (using the automated feature selection algorithm [mRMR](https://github.com/smazzanti/mrmr)).
 
 **Input:**
-* JIRA Issues (.cvs .xlsx)
-    A .csv or .xlsx dump of a JIRA project.
+* JIRA Issues (.csv or .xlsx): A .csv or .xlsx dump of a JIRA project.
 * Mendix SVN Dump (.txt)
 
 **Output:**
 * The accuracy, precision, recall, f1-score, f2-score, f0.5-score of the fitted models (on the training set) used to predict te labels of the test set
-* the feature importances of the fitted models
+* the feature importance of the fitted models
 
 # Dependencies
 * [Python](https://www.python.org/) (>= 3.9.4)
@@ -21,25 +21,26 @@ This repository provides the code used to produce the results of Rasiman, Dalpia
 * [SciPy](https://scipy.org/) (>=  1.6.2)
 * [NLTK](https://www.nltk.org/) (>=  3.5)
 * [Scikit-Learn](https://scikit-learn.org) (>=  0.24.1)
+* [Scikit-posthocs](https://github.com/maximtrp/scikit-posthocs) (>= 0.7.0)
 * [mrmr_selection](https://github.com/smazzanti/mrmr) (>=0.2.5)
 
 # Directory Structure
-The project follows the structure laid out by [Data Science for Social Good](https://github.com/dssg/hitchhikers-guide). Below is a modified of their system as used in this project
 ```
 ├── data  
-│   ├── 01_raw                                      <- Imutable input data
-│   │   ├── jira_example.csv                        <- Example of raw JIRA input
-│   │   └── svn_example.txt                         <- Example of svn input
-│   ├── 02_intermediate                             <- Cleaned version of raw
-│   └── 03_processed                                <- The data used for modelling 
+│   ├── 01_raw                                      <- Input data
+│   │   ├── jira_example.csv                        <- Example of a raw JIRA input
+│   │   └── svn_example.txt                         <- Example of an svn input
+│   ├── 02_intermediate                             <- Cleaned version of 01_raw, produced by lcd_trace.ipynb
+│   └── 03_processed                                <- The data used to train the classifiers (populated features) 
 ├── notebooks                                       <- Jupyter notebooks
 │   ├── lcd_trace.ipynb                             <- Notebook to engineer the features to be used by the models
 │   │   lcd_trace_no_lc_features.ipynb              <- Notebook to engineer the non-MDD specific features to be used by the models
 │   │   evaluation_notebook.ipynb                   <- Notebook to evaluate trace classification models
 │   │   feature_selection.ipynb                     <- Notebook to apply feature selection for three subset sizes
 │   └── results processing
-│       ├── calculating_feature_importance.ipynb    <- Notebook to calculate feature importance (families) and create boxplots 
-│       └── process_results.ipynb                   <- Notebook to process the raw results 
+│       ├── calculating_feature_importance.ipynb    <- Notebook to calculate feature importance (families) and create boxplots (e.g., Figure 3 in the paper)
+│       ├── Friedman-Nemenyi.ipynb                  <- Notebook to perform the statistical tests
+│       └── process_results.ipynb                   <- Notebook to process the raw results that returns dataset-grouped results
 ├── results                                         <- The evaluation results produced by the notebook
 │   ├── 01_Trace link Feature Data                  <- Example of populated feature files
 │   ├── 02_non_normalised_results                   <- The evaluation for non-normalised feature input data
@@ -50,12 +51,12 @@ The project follows the structure laid out by [Data Science for Social Good](htt
 │   │   ├── light_gbm              
 │   │   ├── random_forests
 │   │   └── xg_boost
-│   ├── 05_Feature selection subsets                <- Examples of proccessed results files of feature subsets data
+│   ├── 05_Feature selection subsets                <- Examples of processed results files of feature subsets data
 │   └── Evaluation                                  <- Examples of processed results files of model evaluation
 │
-├── src                                             <- Source code for use in this project.
+├── src                                             <- Source code for use in this project, called by the notebooks.
 │   ├── d00_utils                                   <- Methods used across the project
-│   │   └── calculateTimeDifference.py              <- Method to give time difference in minutes and seconds (string)
+│   │   └── calculateTimeDifference.py              <- Method to calculate time difference in minutes and seconds (string)
 │   ├── d01_data                                    <- Scripts to reading and writing data
 │   │   └── loadCommits.py                          <- Method to load .txt to a pandas dataframe
 │   ├── d02_intermediate                            <- Scripts to transform data from raw to intermediate
@@ -83,13 +84,10 @@ python -m notebook
 ```
 2. Navigate to ```notebooks``` and execetute ```lcd_trace.ipynb```.
 3. In the second cell block provide the file path to the JIRA set and the SVN commit set. An example is given underneath using example sets.
-```
-#Import raw JIRA data as a pandas dataframe
-jira_df_raw = pd.read_csv('../data/01_raw/jira_example.csv')
+	* Import raw JIRA data as a pandas dataframe: ```jira_df_raw = pd.read_csv('../data/01_raw/jira_example.csv')```
+	* Import raw svn data as a pandas dataframe:
+```svn_df_raw = loadCommits('../data/01_raw/svn_example.txt')```
 
-#Import raw svn data as a pandas dataframe
-svn_df_raw = loadCommits('../data/01_raw/svn_example.txt')
-```
 4. Navigate to ```Cell``` and then ```Run all cells```
 5. Navigate to ```notebooks``` and execetute ```evaluation_notebook.ipynb```.
 6. In the second cell block it is possible to set a number of evaluation rounds (default=2)
@@ -103,5 +101,5 @@ For automated feature selection, the following steps shall be taken:
 1. Navigate to ```notebooks``` and execetute ```feature_selection.ipynb```.
 2. In the second cell block it is possible to set a number of evaluation rounds (default=2) and a project name that is run.
 
-# Publication
-Rasiman, R.S., Dalpiaz, F., & España, S. (2022). How Effective Is Automated Trace Link Recovery in Model-Driven Development? In *International Working Conference on Requirements Engineering: Foundation for Software Quality*. Springer, Nature.
+## Paper (under review)
+Van Oosten, W., Rasiman, R.S., Dalpiaz, F., & Hurkmans, T. (2022). On the Effectiveness of Automated Tracing Model Changes to Project Issues. [under review]
