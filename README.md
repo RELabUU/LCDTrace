@@ -1,7 +1,7 @@
 # About
 
 
-This repository provides the code used to produce the results of Van Oosten, Rasiman, Dalpiaz & Hurkmans (2022). 
+This repository provides the code used to produce the results of Van Oosten, Rasiman, Dalpiaz & Hurkmans (2023). 
 
 It takes a set of JIRA issues and a set of SVN commits as input. The program then cleans and preprocesses these. The JIRA identifier (label) is then taken from the SVN commit logs and appended to the commit data using REGEX. The Cartesian product of the JIRA issues and SVN commits is then produced, with each element being a candidate trace. For each candidate trace, a set of features is computed. These features are then utilized as input data for 12 different models (classification algorithm x rebalancing strategy). Finally, these models are evaluated. This is then followed by a similar approach for non-MDD specific features and feature subsets (using the automated feature selection algorithm [mRMR](https://github.com/smazzanti/mrmr)).
 
@@ -39,7 +39,7 @@ It takes a set of JIRA issues and a set of SVN commits as input. The program the
 │   │   feature_selection.ipynb                     <- Notebook to apply feature selection for three subset sizes
 │   └── results processing
 │       ├── calculating_feature_importance.ipynb    <- Notebook to calculate feature importance (families) and create boxplots (e.g., Figure 3 in the paper)
-│       ├── Friedman-Nemenyi.ipynb                  <- Notebook to perform the statistical tests
+│       ├── Statistical-Tests-and-Effect-Size.ipynb <- Notebook to perform the statistical tests
 │       └── process_results.ipynb                   <- Notebook to process the raw results that returns dataset-grouped results
 ├── results                                         <- The evaluation results produced by the notebook
 │   ├── 01_Trace link Feature Data                  <- Example of populated feature files
@@ -102,4 +102,4 @@ For automated feature selection, the following steps shall be taken:
 2. In the second cell block it is possible to set a number of evaluation rounds (default=2) and a project name that is run.
 
 ## Paper (under review)
-Van Oosten, W., Rasiman, R.S., Dalpiaz, F., & Hurkmans, T. (2022). On the Effectiveness of Automated Tracing Model Changes to Project Issues. [under review]
+Van Oosten, W., Rasiman, R.S., Dalpiaz, F., & Hurkmans, T. (2023). On the Effectiveness of Automated Tracing Model Changes to Project Issues. Information & Software Technology.
